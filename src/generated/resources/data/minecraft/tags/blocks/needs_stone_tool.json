@@ -1,0 +1,12 @@
+{
+  "values": [
+    "asylumresources:silver_ore",
+    "asylumresources:silver_block",
+    "asylumresources:raw_silver_block",
+    "asylumresources:deepslate_silver_ore",
+    "asylumresources:tin_block",
+    "asylumresources:tin_ore",
+    "asylumresources:raw_tin_block",
+    "asylumresources:deepslate_tin_ore"
+  ]
+}

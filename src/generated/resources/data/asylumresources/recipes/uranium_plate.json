@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "asylumresources:uranium_ingot"
+    },
+    {
+      "item": "asylumresources:uranium_ingot"
+    },
+    {
+      "tag": "forge:hammers"
+    }
+  ],
+  "result": {
+    "item": "asylumresources:uranium_plate"
+  }
+}

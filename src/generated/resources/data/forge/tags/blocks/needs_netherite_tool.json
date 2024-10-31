@@ -1,0 +1,14 @@
+{
+  "values": [
+    "asylumresources:platinum_block",
+    "asylumresources:platinum_ore",
+    "asylumresources:raw_platinum_block",
+    "asylumresources:deepslate_platinum_ore",
+    "asylumresources:osmium_block",
+    "asylumresources:osmium_ore",
+    "asylumresources:raw_osmium_block",
+    "asylumresources:deepslate_osmium_ore",
+    "asylumresources:refined_glowstone_block",
+    "asylumresources:refined_obsidian_block"
+  ]
+}

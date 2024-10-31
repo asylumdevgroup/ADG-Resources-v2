@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_quartz_enriched_iron_dust": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "asylumresources:quartz_enriched_iron_dust"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "asylumresources:quartz_enriched_iron_ingot_from_blasting_quartz_enriched_iron_dust"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_quartz_enriched_iron_dust",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "asylumresources:quartz_enriched_iron_ingot_from_blasting_quartz_enriched_iron_dust"
+    ]
+  },
+  "sends_telemetry_event": false
+}

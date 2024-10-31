@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "asylumresources:zinc_ingot"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "asylumresources:zinc_nugget"
+  }
+}

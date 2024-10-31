@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "asylumresources:brass_ingot"
+    },
+    {
+      "item": "asylumresources:brass_ingot"
+    },
+    {
+      "tag": "forge:hammers"
+    }
+  ],
+  "result": {
+    "item": "asylumresources:brass_plate"
+  }
+}

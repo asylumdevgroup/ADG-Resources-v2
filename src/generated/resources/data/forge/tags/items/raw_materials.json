@@ -1,0 +1,13 @@
+{
+  "values": [
+    "asylumresources:raw_aluminum",
+    "asylumresources:raw_lead",
+    "asylumresources:raw_nickel",
+    "asylumresources:raw_osmium",
+    "asylumresources:raw_platinum",
+    "asylumresources:raw_silver",
+    "asylumresources:raw_tin",
+    "asylumresources:raw_uranium",
+    "asylumresources:raw_zinc"
+  ]
+}

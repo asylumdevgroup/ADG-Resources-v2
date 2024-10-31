@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "aluminum",
+  "key": {
+    "#": {
+      "item": "asylumresources:raw_aluminum"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "asylumresources:raw_aluminum_block"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "asylumresources:nickel_ingot"
+    },
+    {
+      "item": "asylumresources:nickel_ingot"
+    },
+    {
+      "tag": "forge:hammers"
+    }
+  ],
+  "result": {
+    "item": "asylumresources:nickel_plate"
+  }
+}

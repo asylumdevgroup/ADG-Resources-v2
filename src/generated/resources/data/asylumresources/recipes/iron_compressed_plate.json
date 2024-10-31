@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "asylumresources:iron_compressed_ingot"
+    },
+    {
+      "item": "asylumresources:iron_compressed_ingot"
+    },
+    {
+      "tag": "forge:hammers"
+    }
+  ],
+  "result": {
+    "item": "asylumresources:iron_compressed_plate"
+  }
+}

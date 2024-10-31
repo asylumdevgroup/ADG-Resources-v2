@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "ingredient": [
+    {
+      "tag": "forge:ores/apatite"
+    }
+  ],
+  "result": "asylumresources:apatite",
+  "experience": 0.7,
+  "cookingtime": 100
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "asylumresources:cinnabar"
+    },
+    {
+      "item": "asylumresources:cinnabar"
+    },
+    {
+      "tag": "forge:hammers"
+    }
+  ],
+  "result": {
+    "item": "asylumresources:cinnabar_plate"
+  }
+}

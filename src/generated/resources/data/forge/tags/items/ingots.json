@@ -1,0 +1,27 @@
+{
+  "values": [
+    "asylumresources:aluminum_ingot",
+    "asylumresources:andesite_alloy_ingot",
+    "asylumresources:brass_ingot",
+    "asylumresources:bronze_ingot",
+    "asylumresources:constantan_ingot",
+    "asylumresources:electrum_ingot",
+    "asylumresources:enderium_ingot",
+    "asylumresources:graphite_ingot",
+    "asylumresources:invar_ingot",
+    "asylumresources:iron_compressed_ingot",
+    "asylumresources:lead_ingot",
+    "asylumresources:lumium_ingot",
+    "asylumresources:nickel_ingot",
+    "asylumresources:osmium_ingot",
+    "asylumresources:platinum_ingot",
+    "asylumresources:refined_glowstone_ingot",
+    "asylumresources:refined_obsidian_ingot",
+    "asylumresources:rose_gold_ingot",
+    "asylumresources:signalum_ingot",
+    "asylumresources:silver_ingot",
+    "asylumresources:steel_ingot",
+    "asylumresources:tin_ingot",
+    "asylumresources:zinc_ingot"
+  ]
+}

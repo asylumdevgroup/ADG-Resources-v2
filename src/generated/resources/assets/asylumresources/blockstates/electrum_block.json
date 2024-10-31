@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "asylumresources:block/electrum_block"
+    }
+  }
+}

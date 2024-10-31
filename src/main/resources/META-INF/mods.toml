@@ -1,0 +1,39 @@
+
+modLoader="javafml"
+
+loaderVersion="${loader_version_range}"
+
+license="MIT"
+
+[[mods]]
+
+modId="asylumresources"
+
+version="1.0.0"
+
+displayName="Asylum Resources"
+
+authors="AsylumDev, endangerednayla"
+
+description='''Metals used for Asylum packs.'''
+
+[[dependencies.asylumresources]]
+
+modId="forge"
+
+mandatory=true
+
+versionRange="${forge_version_range}"
+
+ordering="NONE"
+
+side="BOTH"
+
+[[dependencies.asylumresources]]
+modId="minecraft"
+mandatory=true
+
+versionRange="${minecraft_version_range}"
+ordering="NONE"
+side="BOTH"
+

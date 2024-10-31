@@ -1,0 +1,27 @@
+{
+  "values": [
+    "asylumresources:andesite_alloy_nugget",
+    "asylumresources:aluminum_nugget",
+    "asylumresources:brass_nugget",
+    "asylumresources:bronze_nugget",
+    "asylumresources:constantan_nugget",
+    "asylumresources:electrum_nugget",
+    "asylumresources:enderium_nugget",
+    "asylumresources:invar_nugget",
+    "asylumresources:lead_nugget",
+    "asylumresources:lumium_nugget",
+    "asylumresources:nickel_nugget",
+    "asylumresources:signalum_nugget",
+    "asylumresources:osmium_nugget",
+    "asylumresources:platinum_nugget",
+    "asylumresources:quartz_enriched_iron_nugget",
+    "asylumresources:refined_glowstone_ingot",
+    "asylumresources:refined_obsidian_nugget",
+    "asylumresources:rose_gold_nugget",
+    "asylumresources:silver_nugget",
+    "asylumresources:steel_nugget",
+    "asylumresources:tin_nugget",
+    "asylumresources:uranium_nugget",
+    "asylumresources:zinc_nugget"
+  ]
+}

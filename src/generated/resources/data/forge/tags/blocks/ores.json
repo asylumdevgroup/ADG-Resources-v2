@@ -1,0 +1,30 @@
+{
+  "values": [
+    "asylumresources:aluminum_ore",
+    "asylumresources:deepslate_aluminum_ore",
+    "asylumresources:apatite_ore",
+    "asylumresources:deepslate_apatite_ore",
+    "asylumresources:cinnabar_ore",
+    "asylumresources:deepslate_cinnabar_ore",
+    "asylumresources:lead_ore",
+    "asylumresources:deepslate_lead_ore",
+    "asylumresources:nickel_ore",
+    "asylumresources:deepslate_nickel_ore",
+    "asylumresources:osmium_ore",
+    "asylumresources:deepslate_osmium_ore",
+    "asylumresources:platinum_ore",
+    "asylumresources:deepslate_platinum_ore",
+    "asylumresources:ruby_ore",
+    "asylumresources:deepslate_ruby_ore",
+    "asylumresources:sapphire_ore",
+    "asylumresources:deepslate_sapphire_ore",
+    "asylumresources:silver_ore",
+    "asylumresources:deepslate_silver_ore",
+    "asylumresources:tin_ore",
+    "asylumresources:deepslate_tin_ore",
+    "asylumresources:uranium_ore",
+    "asylumresources:deepslate_uranium_ore",
+    "asylumresources:zinc_ore",
+    "asylumresources:deepslate_zinc_ore"
+  ]
+}

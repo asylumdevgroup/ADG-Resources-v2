@@ -1,0 +1,414 @@
+{
+  "block.asylumresources.platinum_ore": "Platinum Ore",
+  "block.asylumresources.platinum_block": "Platinum Block",
+  "block.asylumresources.raw_platinum_block": "Raw Platinum Block",
+  "block.asylumresources.deepslate_platinum_ore": "Deepslate Platinum Ore",
+
+  "block.asylumresources.silver_ore": "Silver Ore",
+  "block.asylumresources.silver_block": "Silver Block",
+  "block.asylumresources.raw_silver_block": "Raw Silver Block",
+  "block.asylumresources.deepslate_silver_ore": "Deepslate Silver Ore",
+
+  "block.asylumresources.nickel_ore": "Nickel Ore",
+  "block.asylumresources.nickel_block": "Nickel Block",
+  "block.asylumresources.raw_nickel_block": "Raw Nickel Block",
+  "block.asylumresources.deepslate_nickel_ore": "Deepslate Nickel Ore",
+
+  "block.asylumresources.uranium_ore": "Uranium Ore",
+  "block.asylumresources.uranium_block": "Uranium Block",
+  "block.asylumresources.raw_uranium_block": "Raw Uranium Block",
+  "block.asylumresources.deepslate_uranium_ore": "Deepslate Uranium Ore",
+
+  "block.asylumresources.aluminum_ore": "Aluminum Ore",
+  "block.asylumresources.aluminum_block": "Aluminum Block",
+  "block.asylumresources.raw_aluminum_block": "Raw Aluminum Block",
+  "block.asylumresources.deepslate_aluminum_ore": "Deepslate Aluminum Ore",
+
+  "block.asylumresources.lead_ore": "Lead Ore",
+  "block.asylumresources.lead_block": "Lead Block",
+  "block.asylumresources.raw_lead_block": "Raw Lead Block",
+  "block.asylumresources.deepslate_lead_ore": "Deepslate Lead Ore",
+
+  "block.asylumresources.ruby_ore": "Ruby Ore",
+  "block.asylumresources.ruby_block": "Ruby Block",
+  "block.asylumresources.deepslate_ruby_ore": "Deepslate Ruby Ore",
+
+  "block.asylumresources.sapphire_ore": "Sapphire Ore",
+  "block.asylumresources.sapphire_block": "Sapphire Block",
+  "block.asylumresources.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
+
+  "block.asylumresources.osmium_ore": "Osmium Ore",
+  "block.asylumresources.osmium_block": "Osmium Block",
+  "block.asylumresources.raw_osmium_block": "Raw Osmium Block",
+  "block.asylumresources.deepslate_osmium_ore": "Deepslate Osmium Ore",
+
+  "block.asylumresources.tin_ore": "Tin Ore",
+  "block.asylumresources.tin_block": "Tin Block",
+  "block.asylumresources.raw_tin_block": "Raw Tin Block",
+  "block.asylumresources.deepslate_tin_ore": "Deepslate Tin Ore",
+
+  "block.asylumresources.zinc_ore": "Zinc Ore",
+  "block.asylumresources.zinc_block": "Zinc Block",
+  "block.asylumresources.raw_zinc_block": "Raw Zinc Block",
+  "block.asylumresources.deepslate_zinc_ore": "Deepslate Zinc Ore",
+
+  "block.asylumresources.apatite_ore": "Apatite Ore",
+  "block.asylumresources.apatite_block": "Apatite Block",
+  "block.asylumresources.deepslate_apatite_ore": "Deepslate Apatite Ore",
+
+  "block.asylumresources.cinnabar_ore": "Cinnabar Ore",
+  "block.asylumresources.cinnabar_block": "Cinnabar Block",
+  "block.asylumresources.deepslate_cinnabar_ore": "Deepslate Cinnabar Ore",
+
+  "block.asylumresources.bronze_block": "Bronze Block",
+
+  "block.asylumresources.constantan_block": "Constantan Block",
+
+  "block.asylumresources.invar_block": "Invar Block",
+
+  "block.asylumresources.signalum_block": "Signalum Block",
+
+  "block.asylumresources.refined_obsidian_block": "Refined Obsidian Block",
+
+  "block.asylumresources.refined_glowstone_block": "Refined Glowstone Block",
+
+  "block.asylumresources.brass_block": "Brass Block",
+
+  "block.asylumresources.electrum_block": "Electrum Block",
+
+  "block.asylumresources.enderium_block": "Enderium Block",
+
+  "block.asylumresources.steel_block": "Steel Block",
+
+  "block.asylumresources.andesite_alloy_block": "Andesite Alloy Block",
+
+  "block.asylumresources.lumium_block": "Lumium Block",
+
+  "block.asylumresources.rose_gold_block": "Rose Gold Block",
+
+  "block.asylumresources.graphite_block": "Graphite Block",
+
+  "block.asylumresources.quartz_enriched_iron_block": "Quartz Enriched Iron Block",
+
+  "block.asylumresources.iron_compressed_block": "Iron Compressed Block",
+
+  "item.asylumresources.raw_platinum": "Raw Platinum",
+  "item.asylumresources.platinum_ingot": "Platinum Ingot",
+  "item.asylumresources.platinum_nugget": "Platinum Nugget",
+  "item.asylumresources.platinum_plate": "Platinum Plate",
+  "item.asylumresources.platinum_gear": "Platinum Gear",
+  "item.asylumresources.platinum_dust": "Platinum Dust",
+  "item.asylumresources.platinum_coin": "Platinum Coin",
+  "item.asylumresources.platinum_rod": "Platinum Rod",
+
+  "item.asylumresources.raw_silver": "Raw Silver",
+  "item.asylumresources.silver_ingot": "Silver Ingot",
+  "item.asylumresources.silver_nugget": "Silver Nugget",
+  "item.asylumresources.silver_plate": "Silver Plate",
+  "item.asylumresources.silver_gear": "Silver Gear",
+  "item.asylumresources.silver_dust": "Silver Dust",
+  "item.asylumresources.silver_coin": "Silver Coin",
+  "item.asylumresources.silver_rod": "Silver Rod",
+
+  "item.asylumresources.raw_nickel": "Raw Nickel",
+  "item.asylumresources.nickel_ingot": "Nickel Ingot",
+  "item.asylumresources.nickel_nugget": "Nickel Nugget",
+  "item.asylumresources.nickel_plate": "Nickel Plate",
+  "item.asylumresources.nickel_gear": "Nickel Gear",
+  "item.asylumresources.nickel_dust": "Nickel Dust",
+  "item.asylumresources.nickel_coin": "Nickel Coin",
+  "item.asylumresources.nickel_rod": "Nickel Rod",
+
+  "item.asylumresources.raw_uranium": "Raw Uranium",
+  "item.asylumresources.uranium_ingot": "Uranium Ingot",
+  "item.asylumresources.uranium_nugget": "Uranium Nugget",
+  "item.asylumresources.uranium_plate": "Uranium Plate",
+  "item.asylumresources.uranium_gear": "Uranium Gear",
+  "item.asylumresources.uranium_dust": "Uranium Dust",
+  "item.asylumresources.uranium_coin": "Uranium Coin",
+  "item.asylumresources.uranium_rod": "Uranium Rod",
+
+  "item.asylumresources.raw_aluminum": "Raw Aluminum",
+  "item.asylumresources.aluminum_ingot": "Aluminum Ingot",
+  "item.asylumresources.aluminum_nugget": "Aluminum Nugget",
+  "item.asylumresources.aluminum_plate": "Aluminum Plate",
+  "item.asylumresources.aluminum_gear": "Aluminum Gear",
+  "item.asylumresources.aluminum_dust": "Aluminum Dust",
+  "item.asylumresources.aluminum_coin": "Aluminum Coin",
+  "item.asylumresources.aluminum_rod": "Aluminum Rod",
+
+  "item.asylumresources.raw_lead": "Raw Lead",
+  "item.asylumresources.lead_ingot": "Lead Ingot",
+  "item.asylumresources.lead_nugget": "Lead Nugget",
+  "item.asylumresources.lead_plate": "Lead Plate",
+  "item.asylumresources.lead_gear": "Lead Gear",
+  "item.asylumresources.lead_dust": "Lead Dust",
+  "item.asylumresources.lead_coin": "Lead Coin",
+  "item.asylumresources.lead_rod": "Lead Rod",
+
+  "item.asylumresources.ruby": "Ruby",
+  "item.asylumresources.ruby_plate": "Ruby Plate",
+  "item.asylumresources.ruby_gear": "Ruby Gear",
+  "item.asylumresources.ruby_dust": "Ruby Dust",
+  "item.asylumresources.ruby_coin": "Ruby Coin",
+  "item.asylumresources.ruby_rod": "Ruby Rod",
+  "item.asylumresources.polished_ruby": "Polished Ruby",
+
+  "item.asylumresources.enriched_uranium": "Enriched Uranium",
+  "item.asylumresources.enriched_uranium_dust": "Enriched Uranium Dust",
+
+  "item.asylumresources.sapphire": "Sapphire",
+  "item.asylumresources.sapphire_plate": "Sapphire Plate",
+  "item.asylumresources.sapphire_gear": "Sapphire Gear",
+  "item.asylumresources.sapphire_dust": "Sapphire Dust",
+  "item.asylumresources.sapphire_coin": "Sapphire Coin",
+  "item.asylumresources.sapphire_rod": "Sapphire Rod",
+  "item.asylumresources.polished_sapphire": "Polished Sapphire",
+
+  "item.asylumresources.raw_osmium": "Raw Osmium",
+  "item.asylumresources.osmium_ingot": "Osmium Ingot",
+  "item.asylumresources.osmium_nugget": "Osmium Nugget",
+  "item.asylumresources.osmium_plate": "Osmium Plate",
+  "item.asylumresources.osmium_gear": "Osmium Gear",
+  "item.asylumresources.osmium_dust": "Osmium Dust",
+  "item.asylumresources.osmium_coin": "Osmium Coin",
+  "item.asylumresources.osmium_rod": "Osmium Rod",
+
+  "item.asylumresources.raw_tin": "Raw Tin",
+  "item.asylumresources.tin_ingot": "Tin Ingot",
+  "item.asylumresources.tin_nugget": "Tin Nugget",
+  "item.asylumresources.tin_plate": "Tin Plate",
+  "item.asylumresources.tin_gear": "Tin Gear",
+  "item.asylumresources.tin_dust": "Tin Dust",
+  "item.asylumresources.tin_coin": "Tin Coin",
+  "item.asylumresources.tin_rod": "Tin Rod",
+
+  "item.asylumresources.raw_zinc": "Raw Zinc",
+  "item.asylumresources.zinc_ingot": "Zinc Ingot",
+  "item.asylumresources.zinc_nugget": "Zinc Nugget",
+  "item.asylumresources.zinc_plate": "Zinc Plate",
+  "item.asylumresources.zinc_gear": "Zinc Gear",
+  "item.asylumresources.zinc_dust": "Zinc Dust",
+  "item.asylumresources.zinc_coin": "Zinc Coin",
+  "item.asylumresources.zinc_rod": "Zinc Rod",
+
+  "item.asylumresources.iron_plate": "Iron Plate",
+  "item.asylumresources.iron_gear": "Iron Gear",
+  "item.asylumresources.iron_dust": "Iron Dust",
+  "item.asylumresources.iron_coin": "Iron Coin",
+  "item.asylumresources.iron_rod": "Iron Rod",
+
+  "item.asylumresources.copper_nugget": "Copper Nugget",
+  "item.asylumresources.copper_plate": "Copper Plate",
+  "item.asylumresources.copper_gear": "Copper Gear",
+  "item.asylumresources.copper_dust": "Copper Dust",
+  "item.asylumresources.copper_coin": "Copper Coin",
+  "item.asylumresources.copper_rod": "Copper Rod",
+
+  "item.asylumresources.gold_plate": "Gold Plate",
+  "item.asylumresources.gold_gear": "Gold Gear",
+  "item.asylumresources.gold_dust": "Gold Dust",
+  "item.asylumresources.gold_coin": "Gold Coin",
+  "item.asylumresources.gold_rod": "Gold Rod",
+
+  "item.asylumresources.netherite_nugget": "Netherite Nugget",
+  "item.asylumresources.netherite_plate": "Netherite Plate",
+  "item.asylumresources.netherite_gear": "Netherite Gear",
+  "item.asylumresources.netherite_dust": "Netherite Dust",
+  "item.asylumresources.netherite_coin": "Netherite Coin",
+  "item.asylumresources.netherite_rod": "Netherite Rod",
+
+  "item.asylumresources.apatite": "Apatite",
+  "item.asylumresources.apatite_plate": "Apatite Plate",
+  "item.asylumresources.apatite_dust": "Apatite Dust",
+  "item.asylumresources.apatite_coin": "Apatite Coin",
+  "item.asylumresources.polished_apatite": "Polished Apatite",
+
+  "item.asylumresources.cinnabar": "Cinnabar",
+  "item.asylumresources.cinnabar_plate": "Cinnabar Plate",
+  "item.asylumresources.cinnabar_dust": "Cinnabar Dust",
+  "item.asylumresources.cinnabar_coin": "Cinnabar Coin",
+  "item.asylumresources.cinnabar_rod": "Cinnabar Rod",
+  "item.asylumresources.polished_cinnabar": "Polished Cinnabar",
+
+  "item.asylumresources.diamond_plate": "Diamond Plate",
+  "item.asylumresources.diamond_gear": "Diamond Gear",
+  "item.asylumresources.diamond_dust": "Diamond Dust",
+  "item.asylumresources.diamond_coin": "Diamond Coin",
+  "item.asylumresources.polished_diamond": "Polished Diamond",
+
+  "item.asylumresources.emerald_plate": "Emerald Plate",
+  "item.asylumresources.emerald_gear": "Emerald Gear",
+  "item.asylumresources.emerald_dust": "Emerald Dust",
+  "item.asylumresources.emerald_coin": "Emerald Coin",
+  "item.asylumresources.polished_emerald": "Polished Emerald",
+
+  "item.asylumresources.lapis_lazuli_plate": "Lapis Lazuli Plate",
+  "item.asylumresources.lapis_lazuli_gear": "Lapis Lazuli Gear",
+  "item.asylumresources.lapis_lazuli_dust": "Lapis Lazuli Dust",
+  "item.asylumresources.lapis_lazuli_coin": "Lapis Lazuli Coin",
+  "item.asylumresources.polished_lapis_lazuli": "Polished Lapis Lazuli",
+
+  "item.asylumresources.quartz_plate": "Quartz Plate",
+  "item.asylumresources.quartz_gear": "Quartz Gear",
+  "item.asylumresources.quartz_dust": "Quartz Dust",
+  "item.asylumresources.quartz_coin": "Quartz Coin",
+  "item.asylumresources.polished_quartz": "Polished Quartz",
+
+  "item.asylumresources.bronze_ingot": "Bronze Ingot",
+  "item.asylumresources.bronze_nugget": "Bronze Nugget",
+  "item.asylumresources.bronze_plate": "Bronze Plate",
+  "item.asylumresources.bronze_gear": "Bronze Gear",
+  "item.asylumresources.bronze_dust": "Bronze Dust",
+  "item.asylumresources.bronze_coin": "Bronze Coin",
+  "item.asylumresources.bronze_rod": "Bronze Rod",
+
+  "item.asylumresources.constantan_ingot": "Constantan Ingot",
+  "item.asylumresources.constantan_nugget": "Constantan Nugget",
+  "item.asylumresources.constantan_plate": "Constantan Plate",
+  "item.asylumresources.constantan_gear": "Constantan Gear",
+  "item.asylumresources.constantan_dust": "Constantan Dust",
+  "item.asylumresources.constantan_coin": "Constantan Coin",
+  "item.asylumresources.constantan_rod": "Constantan Rod",
+
+  "item.asylumresources.invar_ingot": "Invar Ingot",
+  "item.asylumresources.invar_nugget": "Invar Nugget",
+  "item.asylumresources.invar_plate": "Invar Plate",
+  "item.asylumresources.invar_gear": "Invar Gear",
+  "item.asylumresources.invar_dust": "Invar Dust",
+  "item.asylumresources.invar_coin": "Invar Coin",
+  "item.asylumresources.invar_rod": "Invar Rod",
+
+  "item.asylumresources.signalum_ingot": "Signalum Ingot",
+  "item.asylumresources.signalum_nugget": "Signalum Nugget",
+  "item.asylumresources.signalum_plate": "Signalum Plate",
+  "item.asylumresources.signalum_gear": "Signalum Gear",
+  "item.asylumresources.signalum_dust": "Signalum Dust",
+  "item.asylumresources.signalum_coin": "Signalum Coin",
+  "item.asylumresources.signalum_rod": "Signalum Rod",
+
+  "item.asylumresources.refined_obsidian_ingot": "Refined Obsidian Ingot",
+  "item.asylumresources.refined_obsidian_nugget": "Refined Obsidian Nugget",
+  "item.asylumresources.refined_obsidian_plate": "Refined Obsidian Plate",
+  "item.asylumresources.refined_obsidian_gear": "Refined Obsidian Gear",
+  "item.asylumresources.refined_obsidian_dust": "Refined Obsidian Dust",
+  "item.asylumresources.refined_obsidian_coin": "Refined Obsidian Coin",
+  "item.asylumresources.refined_obsidian_rod": "Refined Obsidian Rod",
+
+  "item.asylumresources.refined_glowstone_ingot": "Refined Glowstone Ingot",
+  "item.asylumresources.refined_glowstone_nugget": "Refined Glowstone Nugget",
+  "item.asylumresources.refined_glowstone_plate": "Refined Glowstone Plate",
+  "item.asylumresources.refined_glowstone_gear": "Refined Glowstone Gear",
+  "item.asylumresources.refined_glowstone_dust": "Refined Glowstone Dust",
+  "item.asylumresources.refined_glowstone_coin": "Refined Glowstone Coin",
+  "item.asylumresources.refined_glowstone_rod": "Refined Glowstone Rod",
+
+  "item.asylumresources.brass_ingot": "Brass Ingot",
+  "item.asylumresources.brass_nugget": "Brass Nugget",
+  "item.asylumresources.brass_plate": "Brass Plate",
+  "item.asylumresources.brass_gear": "Brass Gear",
+  "item.asylumresources.brass_dust": "Brass Dust",
+  "item.asylumresources.brass_coin": "Brass Coin",
+  "item.asylumresources.brass_rod": "Brass Rod",
+
+  "item.asylumresources.electrum_ingot": "Electrum Ingot",
+  "item.asylumresources.electrum_nugget": "Electrum Nugget",
+  "item.asylumresources.electrum_plate": "Electrum Plate",
+  "item.asylumresources.electrum_gear": "Electrum Gear",
+  "item.asylumresources.electrum_dust": "Electrum Dust",
+  "item.asylumresources.electrum_coin": "Electrum Coin",
+  "item.asylumresources.electrum_rod": "Electrum Rod",
+
+  "item.asylumresources.enderium_ingot": "Enderium Ingot",
+  "item.asylumresources.enderium_nugget": "Enderium Nugget",
+  "item.asylumresources.enderium_plate": "Enderium Plate",
+  "item.asylumresources.enderium_gear": "Enderium Gear",
+  "item.asylumresources.enderium_dust": "Enderium Dust",
+  "item.asylumresources.enderium_coin": "Enderium Coin",
+  "item.asylumresources.enderium_rod": "Enderium Rod",
+
+  "item.asylumresources.steel_ingot": "Steel Ingot",
+  "item.asylumresources.steel_nugget": "Steel Nugget",
+  "item.asylumresources.steel_plate": "Steel Plate",
+  "item.asylumresources.steel_gear": "Steel Gear",
+  "item.asylumresources.steel_dust": "Steel Dust",
+  "item.asylumresources.steel_coin": "Steel Coin",
+  "item.asylumresources.steel_rod": "Steel Rod",
+
+  "item.asylumresources.andesite_alloy_ingot": "Andesite Alloy Ingot",
+  "item.asylumresources.andesite_alloy_nugget": "Andesite Alloy Nugget",
+  "item.asylumresources.andesite_alloy_plate": "Andesite Alloy Plate",
+  "item.asylumresources.andesite_alloy_gear": "Andesite Alloy Gear",
+  "item.asylumresources.andesite_alloy_dust": "Andesite Alloy Dust",
+  "item.asylumresources.andesite_alloy_coin": "Andesite Alloy Coin",
+  "item.asylumresources.andesite_alloy_rod": "Andesite Alloy Rod",
+
+  "item.asylumresources.lumium_ingot": "Lumium Ingot",
+  "item.asylumresources.lumium_nugget": "Lumium Nugget",
+  "item.asylumresources.lumium_plate": "Lumium Plate",
+  "item.asylumresources.lumium_gear": "Lumium Gear",
+  "item.asylumresources.lumium_dust": "Lumium Dust",
+  "item.asylumresources.lumium_coin": "Lumium Coin",
+  "item.asylumresources.lumium_rod": "Lumium Rod",
+
+  "item.asylumresources.rose_gold_ingot": "Rose Gold Ingot",
+  "item.asylumresources.rose_gold_nugget": "Rose Gold Nugget",
+  "item.asylumresources.rose_gold_plate": "Rose Gold Plate",
+  "item.asylumresources.rose_gold_gear":  "Rose Gold Gear",
+  "item.asylumresources.rose_gold_dust": "Rose Gold Dust",
+  "item.asylumresources.rose_gold_coin": "Rose Gold Coin",
+  "item.asylumresources.rose_gold_rod": "Rose Gold Rod",
+
+  "item.asylumresources.iron_compressed_ingot": "Iron Compressed Ingot",
+  "item.asylumresources.iron_compressed_nugget": "Iron Compressed Nugget",
+  "item.asylumresources.iron_compressed_plate": "Iron Compressed Plate",
+  "item.asylumresources.iron_compressed_gear":  "Iron Compressed Gear",
+  "item.asylumresources.iron_compressed_dust": "Iron Compressed Dust",
+  "item.asylumresources.iron_compressed_coin": "Iron Compressed Coin",
+  "item.asylumresources.iron_compressed_rod": "Iron Compressed Rod",
+
+  "item.asylumresources.graphite_ingot": "Graphite Ingot",
+  "item.asylumresources.graphite_plate": "Graphite Plate",
+  "item.asylumresources.graphite_dust": "Graphite Dust",
+  "item.asylumresources.graphite_coin": "Graphite Coin",
+  "item.asylumresources.graphite_rod": "Graphite Rod",
+
+  "item.asylumresources.plastic_plate": "Plastic Plate",
+  "item.asylumresources.plastic_rod": "Plastic Rod",
+
+  "item.asylumresources.quartz_enriched_iron_ingot": "Quartz Enriched Iron Ingot",
+  "item.asylumresources.quartz_enriched_iron_nugget": "Quartz Enriched Iron Nugget",
+  "item.asylumresources.quartz_enriched_iron_plate": "Quartz Enriched Iron Plate",
+  "item.asylumresources.quartz_enriched_iron_gear": "Quartz Enriched Iron Gear",
+  "item.asylumresources.quartz_enriched_iron_dust": "Quartz Enriched Iron Dust",
+  "item.asylumresources.quartz_enriched_iron_coin": "Quartz Enriched Iron Coin",
+  "item.asylumresources.quartz_enriched_iron_rod": "Quartz Enriched Iron Rod",
+
+  "item.asylumresources.coal_dust": "Coal Dust",
+
+  "item.asylumresources.charcoal_dust": "Charcoal Dust",
+
+  "item.asylumresources.obsidian_dust": "Obsidian Dust",
+
+  "item.asylumresources.calcite_dust": "Calcite Dust",
+
+  "item.asylumresources.prismarine_dust": "Prismarine Dust",
+
+  "item.asylumresources.ender_pearl_dust": "Ender Pearl Dust",
+
+  "item.asylumresources.netherrack_dust": "Netherrack Dust",
+
+  "item.asylumresources.amethyst_dust": "Amethyst Dust",
+
+  "item.asylumresources.crying_obsidian_dust": "Crying Obsidian Dust",
+
+  "item.asylumresources.end_stone_dust": "End Stone Dust",
+
+  "item.asylumresources.iron_hammer": "Iron Hammer",
+  "item.asylumresources.brass_hammer": "Brass Hammer",
+  "item.asylumresources.enderium_hammer": "Enderium Hammer",
+  "item.asylumresources.osmium_hammer": "Osmium Hammer",
+
+
+  "creativetab.realistic_metals_tab": "Asylum Resources"
+}

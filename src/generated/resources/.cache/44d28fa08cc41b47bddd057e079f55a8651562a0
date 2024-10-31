@@ -1,0 +1,13 @@
+// 1.20.1	2024-10-29T17:34:10.328306	Tags for minecraft:item mod id asylumresources
+afebf3420176227563bf487294f26b784c4e21e3 data/forge/tags/items/coins.json
+fa50f74d31a53d79070e849b129a4b4daf13cde2 data/forge/tags/items/dusts.json
+83f079908e465b4d9795945941920d337b82d12d data/forge/tags/items/enriched_dusts.json
+a746fce933e3d58ce1ced2e4c063198b400b31ab data/forge/tags/items/enriched_materials.json
+9a6a16629ec88c091c355072d0842d5af95c2dff data/forge/tags/items/gears.json
+70bd4a79c45b60cb17e8f05c65cc43bbb7f8226f data/forge/tags/items/gems.json
+80377bc09ae7badd88bc7d58912a2b18d87c2aed data/forge/tags/items/ingots.json
+95904e51abcf43f06b5b5de8655b59dff08ee81a data/forge/tags/items/nuggets.json
+a4897cd6e6f1de3512005c74e95d0f7291d14a93 data/forge/tags/items/plates.json
+f651439a5f447ec1edabd34141be40f0510f102f data/forge/tags/items/polished_gems.json
+1e0d339eefa54f97f133d4382479d196411926ab data/forge/tags/items/raw_materials.json
+31760ba1ae2ac56539ae47ce9f568a68f0664751 data/forge/tags/items/rods.json

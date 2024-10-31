@@ -1,0 +1,17 @@
+{
+  "values": [
+    "asylumresources:nickel_block",
+    "asylumresources:nickel_ore",
+    "asylumresources:raw_nickel_block",
+    "asylumresources:deepslate_nickel_ore",
+    "asylumresources:uranium_ore",
+    "asylumresources:uranium_block",
+    "asylumresources:raw_uranium_block",
+    "asylumresources:deepslate_uranium_ore",
+    "asylumresources:constantan_block",
+    "asylumresources:iron_compressed_block",
+    "asylumresources:invar_block",
+    "asylumresources:signalum_block",
+    "asylumresources:enderium_block"
+  ]
+}
