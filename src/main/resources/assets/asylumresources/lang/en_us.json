@@ -52,6 +52,26 @@
   "block.asylumresources.raw_zinc_block": "Raw Zinc Block",
   "block.asylumresources.deepslate_zinc_ore": "Deepslate Zinc Ore",
 
+  "block.asylumresources.iridum_ore": "Iridium Ore",
+  "block.asylumresources.iridum_block": "Iridium Block",
+  "block.asylumresources.raw_iridium_block": "Raw Iridium Block",
+  "block.asylumresources.deepslate_iridium_ore": "Deepslate Iridium Ore",
+
+  "block.asylumresources.borax_ore": "Borax Ore",
+  "block.asylumresources.borax_block": "Borax Block",
+  "block.asylumresources.raw_borax_block": "Raw Borax Block",
+  "block.asylumresources.deepslate_borax_ore": "Deepslate Borax Ore",
+
+  "block.asylumresources.lepidolite_ore": "Lepidolite Ore",
+  "block.asylumresources.lepidolite_block": "Lepidolite Block",
+  "block.asylumresources.raw_lepidolite_block": "Raw Lepidolite Block",
+  "block.asylumresources.deepslate_lepidolite_ore": "Deepslate Lepidolite Ore",
+
+  "block.asylumresources.tungsten_ore": "Tungsten Ore",
+  "block.asylumresources.tungsten_block": "Tungsten Block",
+  "block.asylumresources.raw_tungsten_block": "Raw Tungsten Block",
+  "block.asylumresources.deepslate_tungsten_ore": "Deepslate Tungsten Ore",
+
   "block.asylumresources.apatite_ore": "Apatite Ore",
   "block.asylumresources.apatite_block": "Apatite Block",
   "block.asylumresources.deepslate_apatite_ore": "Deepslate Apatite Ore",
@@ -174,6 +194,42 @@
   "item.asylumresources.osmium_coin": "Osmium Coin",
   "item.asylumresources.osmium_rod": "Osmium Rod",
 
+  "item.asylumresources.raw_iridium": "Raw Iridium",
+  "item.asylumresources.iridium_ingot": "Iridium Ingot",
+  "item.asylumresources.iridium_nugget": "Iridium Nugget",
+  "item.asylumresources.iridium_plate": "Iridium Plate",
+  "item.asylumresources.iridium_gear": "Iridium Gear",
+  "item.asylumresources.iridium_dust": "Iridium Dust",
+  "item.asylumresources.iridium_coin": "Iridium Coin",
+  "item.asylumresources.iridium_rod": "Iridium Rod",
+
+  "item.asylumresources.raw_tungsten": "Raw Tungsten",
+  "item.asylumresources.tungsten_ingot": "Tungsten Ingot",
+  "item.asylumresources.tungsten_nugget": "Tungsten Nugget",
+  "item.asylumresources.tungsten_plate": "Tungsten Plate",
+  "item.asylumresources.tungsten_gear": "Tungsten Gear",
+  "item.asylumresources.tungsten_dust": "Tungsten Dust",
+  "item.asylumresources.tungsten_coin": "Tungsten Coin",
+  "item.asylumresources.tungsten_rod": "Tungsten Rod",
+
+  "item.asylumresources.borax": "Borax",
+  "item.asylumresources.boron_ingot": "Boron Ingot",
+  "item.asylumresources.boron_nugget": "Boron Nugget",
+  "item.asylumresources.boron_plate": "Boron Plate",
+  "item.asylumresources.boron_gear": "Boron Gear",
+  "item.asylumresources.boron_dust": "Boron Dust",
+  "item.asylumresources.boron_coin": "Boron Coin",
+  "item.asylumresources.boron_rod": "Boron Rod",
+
+  "item.asylumresources.raw_lepidolite": "Lepidolite",
+  "item.asylumresources.magnesium_ingot": "Magnesium Ingot",
+  "item.asylumresources.magnesium_nugget": "Magnesium Nugget",
+  "item.asylumresources.magnesium_plate": "Magnesium Plate",
+  "item.asylumresources.magnesium_gear": "Magnesium Gear",
+  "item.asylumresources.magnesium_dust": "Magnesium Dust",
+  "item.asylumresources.magnesium_coin": "Magnesium Coin",
+  "item.asylumresources.magnesium_rod": "Magnesium Rod",
+  
   "item.asylumresources.raw_tin": "Raw Tin",
   "item.asylumresources.tin_ingot": "Tin Ingot",
   "item.asylumresources.tin_nugget": "Tin Nugget",
@@ -403,12 +459,6 @@
   "item.asylumresources.crying_obsidian_dust": "Crying Obsidian Dust",
 
   "item.asylumresources.end_stone_dust": "End Stone Dust",
-
-  "item.asylumresources.iron_hammer": "Iron Hammer",
-  "item.asylumresources.brass_hammer": "Brass Hammer",
-  "item.asylumresources.enderium_hammer": "Enderium Hammer",
-  "item.asylumresources.osmium_hammer": "Osmium Hammer",
-
 
   "creativetab.realistic_metals_tab": "Asylum Resources"
 }
