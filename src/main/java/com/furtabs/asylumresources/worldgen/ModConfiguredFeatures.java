@@ -39,7 +39,7 @@ public class ModConfiguredFeatures {
                 List.of(
                     OreConfiguration.target(
                         new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES),
-                        ModBlocks.ALUMINUM_ORE.defaultBlockState()
+                        ModBlocks.ALUMINUM_ORE.get().defaultBlockState()
                     )
                 ),
                 9
@@ -52,7 +52,7 @@ public class ModConfiguredFeatures {
                 List.of(
                     OreConfiguration.target(
                         new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES),
-                        ModBlocks.APATITE_ORE.defaultBlockState()
+                        ModBlocks.APATITE_ORE.get().defaultBlockState()
                     )
                 ),
                 8
@@ -65,7 +65,7 @@ public class ModConfiguredFeatures {
                 List.of(
                     OreConfiguration.target(
                         new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES),
-                        ModBlocks.CINNABAR_ORE.defaultBlockState()
+                        ModBlocks.CINNABAR_ORE.get().defaultBlockState()
                     )
                 ),
                 7
@@ -78,7 +78,7 @@ public class ModConfiguredFeatures {
                 List.of(
                     OreConfiguration.target(
                         new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES),
-                        ModBlocks.LEAD_ORE.defaultBlockState()
+                        ModBlocks.LEAD_ORE.get().defaultBlockState()
                     )
                 ),
                 8
@@ -91,7 +91,7 @@ public class ModConfiguredFeatures {
                 List.of(
                     OreConfiguration.target(
                         new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES),
-                        ModBlocks.NICKEL_ORE.defaultBlockState()
+                        ModBlocks.NICKEL_ORE.get().defaultBlockState()
                     )
                 ),
                 8
@@ -104,7 +104,7 @@ public class ModConfiguredFeatures {
                 List.of(
                     OreConfiguration.target(
                         new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES),
-                        ModBlocks.OSMIUM_ORE.defaultBlockState()
+                        ModBlocks.OSMIUM_ORE.get().defaultBlockState()
                     )
                 ),
                 7
@@ -117,7 +117,7 @@ public class ModConfiguredFeatures {
                 List.of(
                     OreConfiguration.target(
                         new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES),
-                        ModBlocks.PLATINUM_ORE.defaultBlockState()
+                        ModBlocks.PLATINUM_ORE.get().defaultBlockState()
                     )
                 ),
                 6
@@ -130,7 +130,7 @@ public class ModConfiguredFeatures {
                 List.of(
                     OreConfiguration.target(
                         new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES),
-                        ModBlocks.RUBY_ORE.defaultBlockState()
+                        ModBlocks.RUBY_ORE.get().defaultBlockState()
                     )
                 ),
                 5
@@ -143,7 +143,7 @@ public class ModConfiguredFeatures {
                 List.of(
                     OreConfiguration.target(
                         new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES),
-                        ModBlocks.SAPPHIRE_ORE.defaultBlockState()
+                        ModBlocks.SAPPHIRE_ORE.get().defaultBlockState()
                     )
                 ),
                 5
@@ -156,7 +156,7 @@ public class ModConfiguredFeatures {
                 List.of(
                     OreConfiguration.target(
                         new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES),
-                        ModBlocks.SILVER_ORE.defaultBlockState()
+                        ModBlocks.SILVER_ORE.get().defaultBlockState()
                     )
                 ),
                 8
@@ -169,7 +169,7 @@ public class ModConfiguredFeatures {
                 List.of(
                     OreConfiguration.target(
                         new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES),
-                        ModBlocks.TIN_ORE.defaultBlockState()
+                        ModBlocks.TIN_ORE.get().defaultBlockState()
                     )
                 ),
                 7
@@ -182,7 +182,7 @@ public class ModConfiguredFeatures {
                 List.of(
                     OreConfiguration.target(
                         new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES),
-                        ModBlocks.URANIUM_ORE.defaultBlockState()
+                        ModBlocks.URANIUM_ORE.get().defaultBlockState()
                     )
                 ),
                 4
@@ -195,7 +195,7 @@ public class ModConfiguredFeatures {
                 List.of(
                     OreConfiguration.target(
                         new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES),
-                        ModBlocks.ZINC_ORE.defaultBlockState()
+                        ModBlocks.ZINC_ORE.get().defaultBlockState()
                     )
                 ),
                 8
@@ -211,7 +211,7 @@ public class ModConfiguredFeatures {
                 List.of(
                     OreConfiguration.target(
                         new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES),
-                        ModBlocks.ALUMINUM_ORE.defaultBlockState()
+                        ModBlocks.ALUMINUM_ORE.get().defaultBlockState()
                     )
                 ),
                 9
@@ -223,7 +223,7 @@ public class ModConfiguredFeatures {
                 List.of(
                     OreConfiguration.target(
                         new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES),
-                        ModBlocks.APATITE_ORE.defaultBlockState()
+                        ModBlocks.APATITE_ORE.get().defaultBlockState()
                     )
                 ),
                 8
@@ -235,7 +235,7 @@ public class ModConfiguredFeatures {
                 List.of(
                     OreConfiguration.target(
                         new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES),
-                        ModBlocks.CINNABAR_ORE.defaultBlockState()
+                        ModBlocks.CINNABAR_ORE.get().defaultBlockState()
                     )
                 ),
                 7
@@ -247,7 +247,7 @@ public class ModConfiguredFeatures {
                 List.of(
                     OreConfiguration.target(
                         new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES),
-                        ModBlocks.LEAD_ORE.defaultBlockState()
+                        ModBlocks.LEAD_ORE.get().defaultBlockState()
                     )
                 ),
                 8
@@ -259,7 +259,7 @@ public class ModConfiguredFeatures {
                 List.of(
                     OreConfiguration.target(
                         new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES),
-                        ModBlocks.NICKEL_ORE.defaultBlockState()
+                        ModBlocks.NICKEL_ORE.get().defaultBlockState()
                     )
                 ),
                 8
@@ -271,7 +271,7 @@ public class ModConfiguredFeatures {
                 List.of(
                     OreConfiguration.target(
                         new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES),
-                        ModBlocks.OSMIUM_ORE.defaultBlockState()
+                        ModBlocks.OSMIUM_ORE.get().defaultBlockState()
                     )
                 ),
                 7
@@ -283,7 +283,7 @@ public class ModConfiguredFeatures {
                 List.of(
                     OreConfiguration.target(
                         new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES),
-                        ModBlocks.PLATINUM_ORE.defaultBlockState()
+                        ModBlocks.PLATINUM_ORE.get().defaultBlockState()
                     )
                 ),
                 6
@@ -295,7 +295,7 @@ public class ModConfiguredFeatures {
                 List.of(
                     OreConfiguration.target(
                         new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES),
-                        ModBlocks.RUBY_ORE.defaultBlockState()
+                        ModBlocks.RUBY_ORE.get().defaultBlockState()
                     )
                 ),
                 5
@@ -307,7 +307,7 @@ public class ModConfiguredFeatures {
                 List.of(
                     OreConfiguration.target(
                         new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES),
-                        ModBlocks.SAPPHIRE_ORE.defaultBlockState()
+                        ModBlocks.SAPPHIRE_ORE.get().defaultBlockState()
                     )
                 ),
                 5
@@ -319,7 +319,7 @@ public class ModConfiguredFeatures {
                 List.of(
                     OreConfiguration.target(
                         new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES),
-                        ModBlocks.SILVER_ORE.defaultBlockState()
+                        ModBlocks.SILVER_ORE.get().defaultBlockState()
                     )
                 ),
                 8
@@ -331,7 +331,7 @@ public class ModConfiguredFeatures {
                 List.of(
                     OreConfiguration.target(
                         new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES),
-                        ModBlocks.TIN_ORE.defaultBlockState()
+                        ModBlocks.TIN_ORE.get().defaultBlockState()
                     )
                 ),
                 7
@@ -343,7 +343,7 @@ public class ModConfiguredFeatures {
                 List.of(
                     OreConfiguration.target(
                         new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES),
-                        ModBlocks.URANIUM_ORE.defaultBlockState()
+                        ModBlocks.URANIUM_ORE.get().defaultBlockState()
                     )
                 ),
                 4
@@ -355,7 +355,7 @@ public class ModConfiguredFeatures {
                 List.of(
                     OreConfiguration.target(
                         new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES),
-                        ModBlocks.ZINC_ORE.defaultBlockState()
+                        ModBlocks.ZINC_ORE.get().defaultBlockState()
                     )
                 ),
                 8

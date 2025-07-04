@@ -31,128 +31,128 @@ public class ModBlockLootTables extends BlockLootSubProvider {
 
     @Override
     protected void generate() {
-        this.dropSelf(ModBlocks.ALUMINUM_BLOCK);
-        this.dropSelf(ModBlocks.ANDESITE_ALLOY_BLOCK);
-        this.dropSelf(ModBlocks.APATITE_BLOCK);
-        this.dropSelf(ModBlocks.BRASS_BLOCK);
-        this.dropSelf(ModBlocks.BRONZE_BLOCK);
-        this.dropSelf(ModBlocks.CINNABAR_BLOCK);
-        this.dropSelf(ModBlocks.CONSTANTAN_BLOCK);
-        this.dropSelf(ModBlocks.ELECTRUM_BLOCK);
-        this.dropSelf(ModBlocks.ENDERIUM_BLOCK);
-        this.dropSelf(ModBlocks.GRAPHITE_BLOCK);
-        this.dropSelf(ModBlocks.IRON_COMPRESSED_BLOCK);
-        this.dropSelf(ModBlocks.INVAR_BLOCK);
-        this.dropSelf(ModBlocks.LEAD_BLOCK);
-        this.dropSelf(ModBlocks.LUMIUM_BLOCK);
-        this.dropSelf(ModBlocks.NICKEL_BLOCK);
-        this.dropSelf(ModBlocks.OSMIUM_BLOCK);
-        this.dropSelf(ModBlocks.PLATINUM_BLOCK);
-        this.dropSelf(ModBlocks.QUARTZ_ENRICHED_IRON_BLOCK);
-        this.dropSelf(ModBlocks.RAW_ALUMINUM_BLOCK);
-        this.dropSelf(ModBlocks.RAW_LEAD_BLOCK);
-        this.dropSelf(ModBlocks.RAW_NICKEL_BLOCK);
-        this.dropSelf(ModBlocks.RAW_OSMIUM_BLOCK);
-        this.dropSelf(ModBlocks.RAW_PLATINUM_BLOCK);
-        this.dropSelf(ModBlocks.RAW_SILVER_BLOCK);
-        this.dropSelf(ModBlocks.RAW_TIN_BLOCK);
-        this.dropSelf(ModBlocks.RAW_URANIUM_BLOCK);
-        this.dropSelf(ModBlocks.RAW_ZINC_BLOCK);
-        this.dropSelf(ModBlocks.REFINED_OBSIDIAN_BLOCK);
-        this.dropSelf(ModBlocks.REFINED_GLOWSTONE_BLOCK);
-        this.dropSelf(ModBlocks.ROSE_GOLD_BLOCK);
-        this.dropSelf(ModBlocks.RUBY_BLOCK);
-        this.dropSelf(ModBlocks.RUBY_ORE);
-        this.dropSelf(ModBlocks.SAPPHIRE_BLOCK);
-        this.dropSelf(ModBlocks.SAPPHIRE_ORE);
-        this.dropSelf(ModBlocks.SIGNALUM_BLOCK);
-        this.dropSelf(ModBlocks.SILVER_BLOCK);
-        this.dropSelf(ModBlocks.SILVER_ORE);
-        this.dropSelf(ModBlocks.STEEL_BLOCK);
-        this.dropSelf(ModBlocks.TIN_BLOCK);
-        this.dropSelf(ModBlocks.TIN_ORE);
-        this.dropSelf(ModBlocks.URANIUM_BLOCK);
-        this.dropSelf(ModBlocks.URANIUM_ORE);
-        this.dropSelf(ModBlocks.ZINC_BLOCK);
-        this.dropSelf(ModBlocks.ZINC_ORE);
+        this.dropSelf(ModBlocks.ALUMINUM_BLOCK.get());
+        this.dropSelf(ModBlocks.ANDESITE_ALLOY_BLOCK.get());
+        this.dropSelf(ModBlocks.APATITE_BLOCK.get());
+        this.dropSelf(ModBlocks.BRASS_BLOCK.get());
+        this.dropSelf(ModBlocks.BRONZE_BLOCK.get());
+        this.dropSelf(ModBlocks.CINNABAR_BLOCK.get());
+        this.dropSelf(ModBlocks.CONSTANTAN_BLOCK.get());
+        this.dropSelf(ModBlocks.ELECTRUM_BLOCK.get());
+        this.dropSelf(ModBlocks.ENDERIUM_BLOCK.get());
+        this.dropSelf(ModBlocks.GRAPHITE_BLOCK.get());
+        this.dropSelf(ModBlocks.IRON_COMPRESSED_BLOCK.get());
+        this.dropSelf(ModBlocks.INVAR_BLOCK.get());
+        this.dropSelf(ModBlocks.LEAD_BLOCK.get());
+        this.dropSelf(ModBlocks.LUMIUM_BLOCK.get());
+        this.dropSelf(ModBlocks.NICKEL_BLOCK.get());
+        this.dropSelf(ModBlocks.OSMIUM_BLOCK.get());
+        this.dropSelf(ModBlocks.PLATINUM_BLOCK.get());
+        this.dropSelf(ModBlocks.QUARTZ_ENRICHED_IRON_BLOCK.get());
+        this.dropSelf(ModBlocks.RAW_ALUMINUM_BLOCK.get());
+        this.dropSelf(ModBlocks.RAW_LEAD_BLOCK.get());
+        this.dropSelf(ModBlocks.RAW_NICKEL_BLOCK.get());
+        this.dropSelf(ModBlocks.RAW_OSMIUM_BLOCK.get());
+        this.dropSelf(ModBlocks.RAW_PLATINUM_BLOCK.get());
+        this.dropSelf(ModBlocks.RAW_SILVER_BLOCK.get());
+        this.dropSelf(ModBlocks.RAW_TIN_BLOCK.get());
+        this.dropSelf(ModBlocks.RAW_URANIUM_BLOCK.get());
+        this.dropSelf(ModBlocks.RAW_ZINC_BLOCK.get());
+        this.dropSelf(ModBlocks.REFINED_OBSIDIAN_BLOCK.get());
+        this.dropSelf(ModBlocks.REFINED_GLOWSTONE_BLOCK.get());
+        this.dropSelf(ModBlocks.ROSE_GOLD_BLOCK.get());
+        this.dropSelf(ModBlocks.RUBY_BLOCK.get());
+        this.dropSelf(ModBlocks.RUBY_ORE.get());
+        this.dropSelf(ModBlocks.SAPPHIRE_BLOCK.get());
+        this.dropSelf(ModBlocks.SAPPHIRE_ORE.get());
+        this.dropSelf(ModBlocks.SIGNALUM_BLOCK.get());
+        this.dropSelf(ModBlocks.SILVER_BLOCK.get());
+        this.dropSelf(ModBlocks.SILVER_ORE.get());
+        this.dropSelf(ModBlocks.STEEL_BLOCK.get());
+        this.dropSelf(ModBlocks.TIN_BLOCK.get());
+        this.dropSelf(ModBlocks.TIN_ORE.get());
+        this.dropSelf(ModBlocks.URANIUM_BLOCK.get());
+        this.dropSelf(ModBlocks.URANIUM_ORE.get());
+        this.dropSelf(ModBlocks.ZINC_BLOCK.get());
+        this.dropSelf(ModBlocks.ZINC_ORE.get());
 
-        this.add(ModBlocks.ALUMINUM_ORE,
-                block -> createCopperLikeOreDrops(ModBlocks.ALUMINUM_ORE, ModItems.RAW_ALUMINUM));
+        this.add(ModBlocks.ALUMINUM_ORE.get(),
+                block -> createCopperLikeOreDrops(ModBlocks.ALUMINUM_ORE.get(), ModItems.RAW_ALUMINUM.get()));
 
-        this.add(ModBlocks.DEEPSLATE_ALUMINUM_ORE,
-                block -> createCopperLikeOreDrops(ModBlocks.DEEPSLATE_ALUMINUM_ORE, ModItems.RAW_ALUMINUM));
+        this.add(ModBlocks.DEEPSLATE_ALUMINUM_ORE.get(),
+                block -> createCopperLikeOreDrops(ModBlocks.DEEPSLATE_ALUMINUM_ORE.get(), ModItems.RAW_ALUMINUM.get()));
 
-        this.add(ModBlocks.APATITE_ORE,
-                block -> createGemLikeOreDrops(ModBlocks.APATITE_ORE, ModItems.APATITE));
+        this.add(ModBlocks.APATITE_ORE.get(),
+                block -> createGemLikeOreDrops(ModBlocks.APATITE_ORE.get(), ModItems.APATITE.get()));
 
-        this.add(ModBlocks.CINNABAR_ORE,
-                block -> createGemLikeOreDrops(ModBlocks.CINNABAR_ORE, ModItems.CINNABAR));
+        this.add(ModBlocks.CINNABAR_ORE.get(),
+                block -> createGemLikeOreDrops(ModBlocks.CINNABAR_ORE.get(), ModItems.CINNABAR.get()));
 
-        this.add(ModBlocks.DEEPSLATE_APATITE_ORE,
-                block -> createGemLikeOreDrops(ModBlocks.DEEPSLATE_APATITE_ORE, ModItems.APATITE));
+        this.add(ModBlocks.DEEPSLATE_APATITE_ORE.get(),
+                block -> createGemLikeOreDrops(ModBlocks.DEEPSLATE_APATITE_ORE.get(), ModItems.APATITE.get()));
 
-        this.add(ModBlocks.DEEPSLATE_CINNABAR_ORE,
-                block -> createGemLikeOreDrops(ModBlocks.DEEPSLATE_CINNABAR_ORE, ModItems.CINNABAR));
+        this.add(ModBlocks.DEEPSLATE_CINNABAR_ORE.get(),
+                block -> createGemLikeOreDrops(ModBlocks.DEEPSLATE_CINNABAR_ORE.get(), ModItems.CINNABAR.get()));
 
-        this.add(ModBlocks.DEEPSLATE_LEAD_ORE,
-                block -> createCopperLikeOreDrops(ModBlocks.DEEPSLATE_LEAD_ORE, ModItems.RAW_LEAD));
+        this.add(ModBlocks.DEEPSLATE_LEAD_ORE.get(),
+                block -> createCopperLikeOreDrops(ModBlocks.DEEPSLATE_LEAD_ORE.get(), ModItems.RAW_LEAD.get()));
 
-        this.add(ModBlocks.DEEPSLATE_NICKEL_ORE,
-                block -> createCopperLikeOreDrops(ModBlocks.DEEPSLATE_NICKEL_ORE, ModItems.RAW_NICKEL));
+        this.add(ModBlocks.DEEPSLATE_NICKEL_ORE.get(),
+                block -> createCopperLikeOreDrops(ModBlocks.DEEPSLATE_NICKEL_ORE.get(), ModItems.RAW_NICKEL.get()));
 
-        this.add(ModBlocks.DEEPSLATE_OSMIUM_ORE,
-                block -> createCopperLikeOreDrops(ModBlocks.DEEPSLATE_OSMIUM_ORE, ModItems.RAW_OSMIUM));
+        this.add(ModBlocks.DEEPSLATE_OSMIUM_ORE.get(),
+                block -> createCopperLikeOreDrops(ModBlocks.DEEPSLATE_OSMIUM_ORE.get(), ModItems.RAW_OSMIUM.get()));
 
-        this.add(ModBlocks.DEEPSLATE_PLATINUM_ORE,
-                block -> createCopperLikeOreDrops(ModBlocks.DEEPSLATE_PLATINUM_ORE, ModItems.RAW_PLATINUM));
+        this.add(ModBlocks.DEEPSLATE_PLATINUM_ORE.get(),
+                block -> createCopperLikeOreDrops(ModBlocks.DEEPSLATE_PLATINUM_ORE.get(), ModItems.RAW_PLATINUM.get()));
 
-        this.add(ModBlocks.DEEPSLATE_RUBY_ORE,
-                block -> createGemLikeOreDrops(ModBlocks.DEEPSLATE_RUBY_ORE, ModItems.RUBY));
+        this.add(ModBlocks.DEEPSLATE_RUBY_ORE.get(),
+                block -> createGemLikeOreDrops(ModBlocks.DEEPSLATE_RUBY_ORE.get(), ModItems.RUBY.get()));
 
-        this.add(ModBlocks.DEEPSLATE_SAPPHIRE_ORE,
-                block -> createGemLikeOreDrops(ModBlocks.DEEPSLATE_SAPPHIRE_ORE, ModItems.SAPPHIRE));
+        this.add(ModBlocks.DEEPSLATE_SAPPHIRE_ORE.get(),
+                block -> createGemLikeOreDrops(ModBlocks.DEEPSLATE_SAPPHIRE_ORE.get(), ModItems.SAPPHIRE.get()));
 
-        this.add(ModBlocks.DEEPSLATE_SILVER_ORE,
-                block -> createCopperLikeOreDrops(ModBlocks.DEEPSLATE_SILVER_ORE, ModItems.RAW_SILVER));
+        this.add(ModBlocks.DEEPSLATE_SILVER_ORE.get(),
+                block -> createCopperLikeOreDrops(ModBlocks.DEEPSLATE_SILVER_ORE.get(), ModItems.RAW_SILVER.get()));
 
-        this.add(ModBlocks.DEEPSLATE_TIN_ORE,
-                block -> createCopperLikeOreDrops(ModBlocks.DEEPSLATE_TIN_ORE, ModItems.RAW_TIN));
+        this.add(ModBlocks.DEEPSLATE_TIN_ORE.get(),
+                block -> createCopperLikeOreDrops(ModBlocks.DEEPSLATE_TIN_ORE.get(), ModItems.RAW_TIN.get()));
 
-        this.add(ModBlocks.DEEPSLATE_URANIUM_ORE,
-                block -> createCopperLikeOreDrops(ModBlocks.DEEPSLATE_URANIUM_ORE, ModItems.RAW_URANIUM));
+        this.add(ModBlocks.DEEPSLATE_URANIUM_ORE.get(),
+                block -> createCopperLikeOreDrops(ModBlocks.DEEPSLATE_URANIUM_ORE.get(), ModItems.RAW_URANIUM.get()));
 
-        this.add(ModBlocks.DEEPSLATE_ZINC_ORE,
-                block -> createCopperLikeOreDrops(ModBlocks.DEEPSLATE_ZINC_ORE, ModItems.RAW_ZINC));
+        this.add(ModBlocks.DEEPSLATE_ZINC_ORE.get(),
+                block -> createCopperLikeOreDrops(ModBlocks.DEEPSLATE_ZINC_ORE.get(), ModItems.RAW_ZINC.get()));
 
-        this.add(ModBlocks.LEAD_ORE,
-                block -> createCopperLikeOreDrops(ModBlocks.LEAD_ORE, ModItems.RAW_LEAD));
+        this.add(ModBlocks.LEAD_ORE.get(),
+                block -> createCopperLikeOreDrops(ModBlocks.LEAD_ORE.get(), ModItems.RAW_LEAD.get()));
 
-        this.add(ModBlocks.NICKEL_ORE,
-                block -> createCopperLikeOreDrops(ModBlocks.NICKEL_ORE, ModItems.RAW_NICKEL));
+        this.add(ModBlocks.NICKEL_ORE.get(),
+                block -> createCopperLikeOreDrops(ModBlocks.NICKEL_ORE.get(), ModItems.RAW_NICKEL.get()));
 
-        this.add(ModBlocks.OSMIUM_ORE,
-                block -> createCopperLikeOreDrops(ModBlocks.OSMIUM_ORE, ModItems.RAW_OSMIUM));
+        this.add(ModBlocks.OSMIUM_ORE.get(),
+                block -> createCopperLikeOreDrops(ModBlocks.OSMIUM_ORE.get(), ModItems.RAW_OSMIUM.get()));
 
-        this.add(ModBlocks.PLATINUM_ORE,
-                block -> createCopperLikeOreDrops(ModBlocks.PLATINUM_ORE, ModItems.RAW_PLATINUM));
+        this.add(ModBlocks.PLATINUM_ORE.get(),
+                block -> createCopperLikeOreDrops(ModBlocks.PLATINUM_ORE.get(), ModItems.RAW_PLATINUM.get()));
 
-        this.add(ModBlocks.RUBY_ORE,
-                block -> createGemLikeOreDrops(ModBlocks.RUBY_ORE, ModItems.RUBY));
+        this.add(ModBlocks.RUBY_ORE.get(),
+                block -> createGemLikeOreDrops(ModBlocks.RUBY_ORE.get(), ModItems.RUBY.get()));
 
-        this.add(ModBlocks.SAPPHIRE_ORE,
-                block -> createGemLikeOreDrops(ModBlocks.SAPPHIRE_ORE, ModItems.SAPPHIRE));
+        this.add(ModBlocks.SAPPHIRE_ORE.get(),
+                block -> createGemLikeOreDrops(ModBlocks.SAPPHIRE_ORE.get(), ModItems.SAPPHIRE.get()));
 
-        this.add(ModBlocks.SILVER_ORE,
-                block -> createCopperLikeOreDrops(ModBlocks.SILVER_ORE, ModItems.RAW_SILVER));
+        this.add(ModBlocks.SILVER_ORE.get(),
+                block -> createCopperLikeOreDrops(ModBlocks.SILVER_ORE.get(), ModItems.RAW_SILVER.get()));
 
-        this.add(ModBlocks.TIN_ORE,
-                block -> createCopperLikeOreDrops(ModBlocks.TIN_ORE, ModItems.RAW_TIN));
+        this.add(ModBlocks.TIN_ORE.get(),
+                block -> createCopperLikeOreDrops(ModBlocks.TIN_ORE.get(), ModItems.RAW_TIN.get()));
 
-        this.add(ModBlocks.URANIUM_ORE,
-                block -> createCopperLikeOreDrops(ModBlocks.URANIUM_ORE, ModItems.RAW_URANIUM));
+        this.add(ModBlocks.URANIUM_ORE.get(),
+                block -> createCopperLikeOreDrops(ModBlocks.URANIUM_ORE.get(), ModItems.RAW_URANIUM.get()));
 
-        this.add(ModBlocks.ZINC_ORE,
-                block -> createCopperLikeOreDrops(ModBlocks.ZINC_ORE, ModItems.RAW_ZINC));
+        this.add(ModBlocks.ZINC_ORE.get(),
+                block -> createCopperLikeOreDrops(ModBlocks.ZINC_ORE.get(), ModItems.RAW_ZINC.get()));
 
     }
 
@@ -183,74 +183,74 @@ public class ModBlockLootTables extends BlockLootSubProvider {
     @Override
     protected Iterable<Block> getKnownBlocks() {
         return java.util.List.of(
-            ModBlocks.ALUMINUM_BLOCK,
-            ModBlocks.ANDESITE_ALLOY_BLOCK,
-            ModBlocks.APATITE_BLOCK,
-            ModBlocks.BRASS_BLOCK,
-            ModBlocks.BRONZE_BLOCK,
-            ModBlocks.CINNABAR_BLOCK,
-            ModBlocks.CONSTANTAN_BLOCK,
-            ModBlocks.ELECTRUM_BLOCK,
-            ModBlocks.ENDERIUM_BLOCK,
-            ModBlocks.GRAPHITE_BLOCK,
-            ModBlocks.IRON_COMPRESSED_BLOCK,
-            ModBlocks.INVAR_BLOCK,
-            ModBlocks.LEAD_BLOCK,
-            ModBlocks.LUMIUM_BLOCK,
-            ModBlocks.NICKEL_BLOCK,
-            ModBlocks.OSMIUM_BLOCK,
-            ModBlocks.PLATINUM_BLOCK,
-            ModBlocks.QUARTZ_ENRICHED_IRON_BLOCK,
-            ModBlocks.RAW_ALUMINUM_BLOCK,
-            ModBlocks.RAW_LEAD_BLOCK,
-            ModBlocks.RAW_NICKEL_BLOCK,
-            ModBlocks.RAW_OSMIUM_BLOCK,
-            ModBlocks.RAW_PLATINUM_BLOCK,
-            ModBlocks.RAW_SILVER_BLOCK,
-            ModBlocks.RAW_TIN_BLOCK,
-            ModBlocks.RAW_URANIUM_BLOCK,
-            ModBlocks.RAW_ZINC_BLOCK,
-            ModBlocks.REFINED_OBSIDIAN_BLOCK,
-            ModBlocks.REFINED_GLOWSTONE_BLOCK,
-            ModBlocks.ROSE_GOLD_BLOCK,
-            ModBlocks.RUBY_BLOCK,
-            ModBlocks.RUBY_ORE,
-            ModBlocks.SAPPHIRE_BLOCK,
-            ModBlocks.SAPPHIRE_ORE,
-            ModBlocks.SIGNALUM_BLOCK,
-            ModBlocks.SILVER_BLOCK,
-            ModBlocks.SILVER_ORE,
-            ModBlocks.STEEL_BLOCK,
-            ModBlocks.TIN_BLOCK,
-            ModBlocks.TIN_ORE,
-            ModBlocks.URANIUM_BLOCK,
-            ModBlocks.URANIUM_ORE,
-            ModBlocks.ZINC_BLOCK,
-            ModBlocks.ZINC_ORE,
-            ModBlocks.ALUMINUM_ORE,
-            ModBlocks.DEEPSLATE_ALUMINUM_ORE,
-            ModBlocks.APATITE_ORE,
-            ModBlocks.CINNABAR_ORE,
-            ModBlocks.DEEPSLATE_APATITE_ORE,
-            ModBlocks.DEEPSLATE_CINNABAR_ORE,
-            ModBlocks.DEEPSLATE_LEAD_ORE,
-            ModBlocks.DEEPSLATE_NICKEL_ORE,
-            ModBlocks.DEEPSLATE_OSMIUM_ORE,
-            ModBlocks.DEEPSLATE_PLATINUM_ORE,
-            ModBlocks.DEEPSLATE_RUBY_ORE,
-            ModBlocks.DEEPSLATE_SAPPHIRE_ORE,
-            ModBlocks.DEEPSLATE_SILVER_ORE,
-            ModBlocks.DEEPSLATE_TIN_ORE,
-            ModBlocks.DEEPSLATE_URANIUM_ORE,
-            ModBlocks.DEEPSLATE_ZINC_ORE,
-            ModBlocks.LEAD_ORE,
-            ModBlocks.NICKEL_ORE,
-            ModBlocks.OSMIUM_ORE,
-            ModBlocks.PLATINUM_ORE,
-            ModBlocks.SILVER_ORE,
-            ModBlocks.TIN_ORE,
-            ModBlocks.URANIUM_ORE,
-            ModBlocks.ZINC_ORE
+            ModBlocks.ALUMINUM_BLOCK.get(),
+            ModBlocks.ANDESITE_ALLOY_BLOCK.get(),
+            ModBlocks.APATITE_BLOCK.get(),
+            ModBlocks.BRASS_BLOCK.get(),
+            ModBlocks.BRONZE_BLOCK.get(),
+            ModBlocks.CINNABAR_BLOCK.get(),
+            ModBlocks.CONSTANTAN_BLOCK.get(),
+            ModBlocks.ELECTRUM_BLOCK.get(),
+            ModBlocks.ENDERIUM_BLOCK.get(),
+            ModBlocks.GRAPHITE_BLOCK.get(),
+            ModBlocks.IRON_COMPRESSED_BLOCK.get(),
+            ModBlocks.INVAR_BLOCK.get(),
+            ModBlocks.LEAD_BLOCK.get(),
+            ModBlocks.LUMIUM_BLOCK.get(),
+            ModBlocks.NICKEL_BLOCK.get(),
+            ModBlocks.OSMIUM_BLOCK.get(),
+            ModBlocks.PLATINUM_BLOCK.get(),
+            ModBlocks.QUARTZ_ENRICHED_IRON_BLOCK.get(),
+            ModBlocks.RAW_ALUMINUM_BLOCK.get(),
+            ModBlocks.RAW_LEAD_BLOCK.get(),
+            ModBlocks.RAW_NICKEL_BLOCK.get(),
+            ModBlocks.RAW_OSMIUM_BLOCK.get(),
+            ModBlocks.RAW_PLATINUM_BLOCK.get(),
+            ModBlocks.RAW_SILVER_BLOCK.get(),
+            ModBlocks.RAW_TIN_BLOCK.get(),
+            ModBlocks.RAW_URANIUM_BLOCK.get(),
+            ModBlocks.RAW_ZINC_BLOCK.get(),
+            ModBlocks.REFINED_OBSIDIAN_BLOCK.get(),
+            ModBlocks.REFINED_GLOWSTONE_BLOCK.get(),
+            ModBlocks.ROSE_GOLD_BLOCK.get(),
+            ModBlocks.RUBY_BLOCK.get(),
+            ModBlocks.RUBY_ORE.get(),
+            ModBlocks.SAPPHIRE_BLOCK.get(),
+            ModBlocks.SAPPHIRE_ORE.get(),
+            ModBlocks.SIGNALUM_BLOCK.get(),
+            ModBlocks.SILVER_BLOCK.get(),
+            ModBlocks.SILVER_ORE.get(),
+            ModBlocks.STEEL_BLOCK.get(),
+            ModBlocks.TIN_BLOCK.get(),
+            ModBlocks.TIN_ORE.get(),
+            ModBlocks.URANIUM_BLOCK.get(),
+            ModBlocks.URANIUM_ORE.get(),
+            ModBlocks.ZINC_BLOCK.get(),
+            ModBlocks.ZINC_ORE.get(),
+            ModBlocks.ALUMINUM_ORE.get(),
+            ModBlocks.DEEPSLATE_ALUMINUM_ORE.get(),
+            ModBlocks.APATITE_ORE.get(),
+            ModBlocks.CINNABAR_ORE.get(),
+            ModBlocks.DEEPSLATE_APATITE_ORE.get(),
+            ModBlocks.DEEPSLATE_CINNABAR_ORE.get(),
+            ModBlocks.DEEPSLATE_LEAD_ORE.get(),
+            ModBlocks.DEEPSLATE_NICKEL_ORE.get(),
+            ModBlocks.DEEPSLATE_OSMIUM_ORE.get(),
+            ModBlocks.DEEPSLATE_PLATINUM_ORE.get(),
+            ModBlocks.DEEPSLATE_RUBY_ORE.get(),
+            ModBlocks.DEEPSLATE_SAPPHIRE_ORE.get(),
+            ModBlocks.DEEPSLATE_SILVER_ORE.get(),
+            ModBlocks.DEEPSLATE_TIN_ORE.get(),
+            ModBlocks.DEEPSLATE_URANIUM_ORE.get(),
+            ModBlocks.DEEPSLATE_ZINC_ORE.get(),
+            ModBlocks.LEAD_ORE.get(),
+            ModBlocks.NICKEL_ORE.get(),
+            ModBlocks.OSMIUM_ORE.get(),
+            ModBlocks.PLATINUM_ORE.get(),
+            ModBlocks.SILVER_ORE.get(),
+            ModBlocks.TIN_ORE.get(),
+            ModBlocks.URANIUM_ORE.get(),
+            ModBlocks.ZINC_ORE.get()
         );
     }
 }
