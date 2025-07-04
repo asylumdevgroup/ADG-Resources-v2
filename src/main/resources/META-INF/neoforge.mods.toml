@@ -19,7 +19,7 @@ description='''Metals used for Asylum packs.'''
 
 [[dependencies.asylumresources]]
 
-modId="forge"
+modId="neoforge"
 
 mandatory=true
 
