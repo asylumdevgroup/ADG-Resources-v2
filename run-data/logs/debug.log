@@ -259,7 +259,7 @@
 [29Oct2024 17:33:54.581] [main/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Vanilla freeze snapshot created
 [29Oct2024 17:33:54.792] [main/DEBUG] [net.minecraftforge.fml.ModWorkManager/LOADING]: Using 8 threads for parallel mod-loading
 [29Oct2024 17:33:55.201] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@3a7e365 - got cpw.mods.cl.ModuleClassLoader@4a68135e
-[29Oct2024 17:33:55.202] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for com.endangerednayla.asylumresources.AsylumRes
+[29Oct2024 17:33:55.202] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for com.furtabs.asylumresources.AsylumRes
 [29Oct2024 17:33:55.221] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@3a7e365 - got cpw.mods.cl.ModuleClassLoader@4a68135e
 [29Oct2024 17:33:55.222] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.minecraftforge.common.ForgeMod
 [29Oct2024 17:33:55.228] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@3a7e365 - got cpw.mods.cl.ModuleClassLoader@4a68135e
@@ -276,9 +276,9 @@
 [29Oct2024 17:33:55.342] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file jei-server.toml for jei tracking
 [29Oct2024 17:33:55.697] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for asylumresources
 [29Oct2024 17:33:55.778] [modloading-worker-0/DEBUG] [mezz.jei.common.platform.Services/]: Loaded mezz.jei.forge.platform.PlatformHelper@10799cb for service interface mezz.jei.common.platform.IPlatformHelper
-[29Oct2024 17:33:55.812] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.endangerednayla.asylumresources.AsylumRes$ClientModEvents to MOD
-[29Oct2024 17:33:55.814] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.endangerednayla.asylumresources.event.ModEvents to FORGE
-[29Oct2024 17:33:55.819] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.endangerednayla.asylumresources.datagen.DataGenerators to MOD
+[29Oct2024 17:33:55.812] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.furtabs.asylumresources.AsylumRes$ClientModEvents to MOD
+[29Oct2024 17:33:55.814] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.furtabs.asylumresources.event.ModEvents to FORGE
+[29Oct2024 17:33:55.819] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.furtabs.asylumresources.datagen.DataGenerators to MOD
 [29Oct2024 17:33:56.020] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: -Dio.netty.noUnsafe: false
 [29Oct2024 17:33:56.021] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: Java version: 17
 [29Oct2024 17:33:56.025] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.theUnsafe: available
