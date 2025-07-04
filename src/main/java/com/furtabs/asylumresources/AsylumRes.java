@@ -21,6 +21,7 @@ public class AsylumRes {
 
     public AsylumRes(IEventBus modEventBus) {
         // Register items
+        ModItems.registerBlockItems();
         ModItems.ITEMS.register(modEventBus);
         
         // Register blocks

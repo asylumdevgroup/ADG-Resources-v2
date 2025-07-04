@@ -18,6 +18,7 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.level.storage.loot.LootTable.Builder;
 import net.minecraft.core.HolderLookup;
+import net.minecraft.world.item.Items;
 
 import java.util.Set;
 

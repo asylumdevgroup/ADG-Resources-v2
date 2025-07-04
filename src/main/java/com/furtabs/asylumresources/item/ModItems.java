@@ -1,6 +1,7 @@
 package com.furtabs.asylumresources.item;
 
 import com.furtabs.asylumresources.AsylumRes;
+import com.furtabs.asylumresources.block.ModBlocks;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Tier;
@@ -8,6 +9,9 @@ import net.minecraft.world.item.Tiers;
 import net.minecraft.core.registries.Registries;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import java.util.function.Supplier;
+import net.minecraft.world.item.BlockItem;
+import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.world.level.block.Block;
 
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(AsylumRes.MOD_ID);
@@ -275,4 +279,11 @@ public class ModItems {
     public static final Supplier<Item> END_STONE_DUST = ITEMS.register("end_stone_dust", () -> new Item(new Item.Properties()));
     public static final Supplier<Item> NETHERRACK_DUST = ITEMS.register("netherrack_dust", () -> new Item(new Item.Properties()));
     public static final Supplier<Item> AMETHYST_DUST = ITEMS.register("amethyst_dust", () -> new Item(new Item.Properties()));
+
+    public static void registerBlockItems() {
+        ModBlocks.BLOCKS.getEntries().forEach(entry -> {
+            String name = entry.getId().getPath();
+            ITEMS.register(name, () -> new BlockItem(entry.get(), new Item.Properties()));
+        });
+    }
 }

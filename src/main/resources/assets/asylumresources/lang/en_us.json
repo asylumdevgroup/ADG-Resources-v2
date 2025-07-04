@@ -1,4 +1,5 @@
 {
+  "itemGroup.asylumresources_tab": "Asylum Resources",
   "block.asylumresources.platinum_ore": "Platinum Ore",
   "block.asylumresources.platinum_block": "Platinum Block",
   "block.asylumresources.raw_platinum_block": "Raw Platinum Block",
@@ -460,5 +461,5 @@
 
   "item.asylumresources.end_stone_dust": "End Stone Dust",
 
-  "creativetab.asylumresouces_tab": "Asylum Resources"
+  "creativetab.asylumresources_tab": "Asylum Resources"
 }
