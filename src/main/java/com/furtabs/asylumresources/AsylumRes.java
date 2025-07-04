@@ -6,6 +6,7 @@ import com.furtabs.asylumresources.item.ModCreativeModTabs;
 import com.furtabs.asylumresources.item.ModItems;
 import com.furtabs.asylumresources.loot.ModLootModifiers;
 import com.furtabs.asylumresources.worldgen.ModConfiguredFeatures;
+import com.furtabs.asylumresources.worldgen.ModRegistryEvents;
 import org.slf4j.Logger;
 import net.neoforged.fml.common.Mod;
 import net.minecraft.core.registries.Registries;
@@ -18,13 +19,6 @@ public class AsylumRes {
     private static final Logger LOGGER = LogUtils.getLogger();
 
     public AsylumRes() {
-        // Register a listener for the RegisterEvent
-        NeoForge.EVENT_BUS.addListener(this::registerFeatures);
-    }
-
-    private void registerFeatures(RegisterEvent event) {
-        event.register(Registries.CONFIGURED_FEATURE, helper -> {
-            ModConfiguredFeatures.bootstrap(helper);
-        });
+        // No registry event registration here; handled by @SubscribeEvent in ModRegistryEvents
     }
 }
