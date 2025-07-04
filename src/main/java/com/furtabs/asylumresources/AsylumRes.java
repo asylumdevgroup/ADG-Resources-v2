@@ -5,8 +5,8 @@ import com.furtabs.asylumresources.block.ModBlocks;
 import com.furtabs.asylumresources.item.ModCreativeModTabs;
 import com.furtabs.asylumresources.item.ModItems;
 import com.furtabs.asylumresources.loot.ModLootModifiers;
-import com.furtabs.asylumresources.worldgen.ModConfiguredFeatures;
 import com.furtabs.asylumresources.worldgen.ModRegistryEvents;
+import com.furtabs.asylumresources.datagen.DataGenerators;
 import org.slf4j.Logger;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.bus.api.IEventBus;
@@ -29,6 +29,9 @@ public class AsylumRes {
         
         // Register creative tabs
         ModCreativeModTabs.TABS.register(modEventBus);
+                
+        // Register data generation
+        modEventBus.addListener(DataGenerators::gatherData);
         
         LOGGER.info("Asylum Resources mod initialized!");
     }

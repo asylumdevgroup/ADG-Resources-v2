@@ -34,19 +34,7 @@ public class ModPlacedFeatures {
     public static final ResourceKey<PlacedFeature> URANIUM_ORE_PLACED_KEY = registerKey("uranium_ore_placed");
     public static final ResourceKey<PlacedFeature> ZINC_ORE_PLACED_KEY = registerKey("zinc_ore_placed");
 
-    public static void bootstrap(BootstrapContext<PlacedFeature> context) {
-        // TODO: Register placed features using context.register(key, value);
-    }
-
     private static ResourceKey<PlacedFeature> registerKey(String name) {
         return ResourceKey.create(Registries.PLACED_FEATURE, ResourceLocation.fromNamespaceAndPath(com.furtabs.asylumresources.AsylumRes.MOD_ID, name));
-    }
-
-    private static PlacedFeature register(Registry<PlacedFeature> context, ResourceKey<PlacedFeature> key, Holder<ConfiguredFeature<?, ?>> configuration,
-                                         List<PlacementModifier> modifiers) {
-        PlacedFeature placedFeature = new PlacedFeature(configuration, List.copyOf(modifiers));
-        // TODO: Update placed feature registration for NeoForge 1.21.x. For now, comment out registration logic to allow compilation.
-        // context.register(key, placedFeature);
-        return placedFeature;
     }
 }

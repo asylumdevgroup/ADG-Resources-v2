@@ -30,10 +30,6 @@ public class ModBiomeModifiers {
     public static final ResourceKey<BiomeModifier> ADD_URANIUM_ORE = registerKey("add_uranium_ore");
     public static final ResourceKey<BiomeModifier> ADD_ZINC_ORE = registerKey("add_zinc_ore");
 
-    public static void bootstrap(BootstrapContext<BiomeModifier> context) {
-        // TODO: Register biome modifiers using context.register(key, value);
-    }
-
     private static ResourceKey<BiomeModifier> registerKey(String name) {
         return ResourceKey.create(net.neoforged.neoforge.registries.NeoForgeRegistries.Keys.BIOME_MODIFIERS, ResourceLocation.fromNamespaceAndPath(com.furtabs.asylumresources.AsylumRes.MOD_ID, name));
     }
