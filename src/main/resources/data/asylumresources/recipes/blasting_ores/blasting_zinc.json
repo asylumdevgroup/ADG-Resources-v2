@@ -3,7 +3,7 @@
   "category": "misc",
   "ingredient": [
     {
-      "tag": "forge:ores/zinc"
+      "tag": "neoforge:ores/zinc"
     }
   ],
   "result": "asylumresources:zinc_ingot",

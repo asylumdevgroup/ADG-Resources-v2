@@ -14,6 +14,8 @@ import net.minecraft.world.level.levelgen.placement.PlacedFeature;
 import net.minecraft.world.level.levelgen.placement.PlacementModifier;
 import net.minecraft.core.RegistrySetBuilder;
 import net.minecraft.data.worldgen.BootstrapContext;
+import net.minecraft.world.level.levelgen.placement.CountPlacement;
+import net.minecraft.world.level.levelgen.placement.InSquarePlacement;
 
 import java.util.List;
 import java.util.Map;
@@ -36,5 +38,126 @@ public class ModPlacedFeatures {
 
     private static ResourceKey<PlacedFeature> registerKey(String name) {
         return ResourceKey.create(Registries.PLACED_FEATURE, ResourceLocation.fromNamespaceAndPath(com.furtabs.asylumresources.AsylumRes.MOD_ID, name));
+    }
+
+    public static void datagenBootstrap(BootstrapContext<PlacedFeature> context) {
+        HolderGetter<ConfiguredFeature<?, ?>> configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
+
+        context.register(ALUMINUM_ORE_PLACED_KEY, new PlacedFeature(
+            configuredFeatures.getOrThrow(ModConfiguredFeatures.ALUMINUM_ORE),
+            List.of(
+                CountPlacement.of(20),
+                InSquarePlacement.spread(),
+                HeightRangePlacement.uniform(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(80))
+            )
+        ));
+
+        context.register(APATITE_ORE_PLACED_KEY, new PlacedFeature(
+            configuredFeatures.getOrThrow(ModConfiguredFeatures.APATITE_ORE),
+            List.of(
+                CountPlacement.of(16),
+                InSquarePlacement.spread(),
+                HeightRangePlacement.uniform(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(80))
+            )
+        ));
+
+        context.register(CINNABAR_ORE_PLACED_KEY, new PlacedFeature(
+            configuredFeatures.getOrThrow(ModConfiguredFeatures.CINNABAR_ORE),
+            List.of(
+                CountPlacement.of(12),
+                InSquarePlacement.spread(),
+                HeightRangePlacement.uniform(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(80))
+            )
+        ));
+
+        context.register(LEAD_ORE_PLACED_KEY, new PlacedFeature(
+            configuredFeatures.getOrThrow(ModConfiguredFeatures.LEAD_ORE),
+            List.of(
+                CountPlacement.of(16),
+                InSquarePlacement.spread(),
+                HeightRangePlacement.uniform(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(80))
+            )
+        ));
+
+        context.register(NICKEL_ORE_PLACED_KEY, new PlacedFeature(
+            configuredFeatures.getOrThrow(ModConfiguredFeatures.NICKEL_ORE),
+            List.of(
+                CountPlacement.of(16),
+                InSquarePlacement.spread(),
+                HeightRangePlacement.uniform(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(80))
+            )
+        ));
+
+        context.register(OSMIUM_ORE_PLACED_KEY, new PlacedFeature(
+            configuredFeatures.getOrThrow(ModConfiguredFeatures.OSMIUM_ORE),
+            List.of(
+                CountPlacement.of(12),
+                InSquarePlacement.spread(),
+                HeightRangePlacement.uniform(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(80))
+            )
+        ));
+
+        context.register(PLATINUM_ORE_PLACED_KEY, new PlacedFeature(
+            configuredFeatures.getOrThrow(ModConfiguredFeatures.PLATINUM_ORE),
+            List.of(
+                CountPlacement.of(8),
+                InSquarePlacement.spread(),
+                HeightRangePlacement.uniform(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(80))
+            )
+        ));
+
+        context.register(RUBY_ORE_PLACED_KEY, new PlacedFeature(
+            configuredFeatures.getOrThrow(ModConfiguredFeatures.RUBY_ORE),
+            List.of(
+                CountPlacement.of(6),
+                InSquarePlacement.spread(),
+                HeightRangePlacement.uniform(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(80))
+            )
+        ));
+
+        context.register(SAPPHIRE_ORE_PLACED_KEY, new PlacedFeature(
+            configuredFeatures.getOrThrow(ModConfiguredFeatures.SAPPHIRE_ORE),
+            List.of(
+                CountPlacement.of(6),
+                InSquarePlacement.spread(),
+                HeightRangePlacement.uniform(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(80))
+            )
+        ));
+
+        context.register(SILVER_ORE_PLACED_KEY, new PlacedFeature(
+            configuredFeatures.getOrThrow(ModConfiguredFeatures.SILVER_ORE),
+            List.of(
+                CountPlacement.of(16),
+                InSquarePlacement.spread(),
+                HeightRangePlacement.uniform(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(80))
+            )
+        ));
+
+        context.register(TIN_ORE_PLACED_KEY, new PlacedFeature(
+            configuredFeatures.getOrThrow(ModConfiguredFeatures.TIN_ORE),
+            List.of(
+                CountPlacement.of(12),
+                InSquarePlacement.spread(),
+                HeightRangePlacement.uniform(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(80))
+            )
+        ));
+
+        context.register(URANIUM_ORE_PLACED_KEY, new PlacedFeature(
+            configuredFeatures.getOrThrow(ModConfiguredFeatures.URANIUM_ORE),
+            List.of(
+                CountPlacement.of(4),
+                InSquarePlacement.spread(),
+                HeightRangePlacement.uniform(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(80))
+            )
+        ));
+
+        context.register(ZINC_ORE_PLACED_KEY, new PlacedFeature(
+            configuredFeatures.getOrThrow(ModConfiguredFeatures.ZINC_ORE),
+            List.of(
+                CountPlacement.of(16),
+                InSquarePlacement.spread(),
+                HeightRangePlacement.uniform(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(80))
+            )
+        ));
     }
 }

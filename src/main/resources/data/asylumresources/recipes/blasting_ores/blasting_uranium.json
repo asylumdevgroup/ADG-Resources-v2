@@ -3,7 +3,7 @@
   "category": "misc",
   "ingredient": [
     {
-      "tag": "forge:ores/uranium"
+      "tag": "neoforge:ores/uranium"
     }
   ],
   "result": "asylumresources:uranium_ingot",

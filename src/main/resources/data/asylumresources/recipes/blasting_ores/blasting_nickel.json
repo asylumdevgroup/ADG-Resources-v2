@@ -3,7 +3,7 @@
   "category": "misc",
   "ingredient": [
     {
-      "tag": "forge:ores/nickel"
+      "tag": "neoforge:ores/nickel"
     }
   ],
   "result": "asylumresources:nickel_ingot",

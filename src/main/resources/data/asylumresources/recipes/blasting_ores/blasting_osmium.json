@@ -3,7 +3,7 @@
   "category": "misc",
   "ingredient": [
     {
-      "tag": "forge:ores/osmium"
+      "tag": "neoforge:ores/osmium"
     }
   ],
   "result": "asylumresources:osmium_ingot",

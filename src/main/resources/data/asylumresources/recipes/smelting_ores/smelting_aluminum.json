@@ -3,7 +3,7 @@
   "category": "misc",
   "ingredient": [
     {
-      "tag": "forge:ores/aluminum"
+      "tag": "neoforge:ores/aluminum"
     }
   ],
   "result": "asylumresources:aluminum_ingot",

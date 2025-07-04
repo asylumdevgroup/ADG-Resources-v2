@@ -3,7 +3,7 @@
   "category": "misc",
   "ingredient": [
     {
-      "tag": "forge:ores/apatite"
+      "tag": "neoforge:ores/apatite"
     }
   ],
   "result": "asylumresources:apatite",

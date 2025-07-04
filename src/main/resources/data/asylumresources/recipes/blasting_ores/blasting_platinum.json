@@ -3,7 +3,7 @@
   "category": "misc",
   "ingredient": [
     {
-      "tag": "forge:ores/platinum"
+      "tag": "neoforge:ores/platinum"
     }
   ],
   "result": "asylumresources:platinum_ingot",

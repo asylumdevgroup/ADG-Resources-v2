@@ -13,7 +13,6 @@ import net.minecraft.core.HolderLookup;
 import net.minecraft.core.RegistrySetBuilder;
 import java.util.HashMap;
 import java.util.Map;
-import net.minecraft.data.worldgen.BootstrapContext;
 
 public class ModBiomeModifiers {
     public static final ResourceKey<BiomeModifier> ADD_PLATINUM_ORE = registerKey("add_platinum_ore");

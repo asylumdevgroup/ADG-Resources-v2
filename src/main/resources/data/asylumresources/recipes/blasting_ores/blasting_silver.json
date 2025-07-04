@@ -3,7 +3,7 @@
   "category": "misc",
   "ingredient": [
     {
-      "tag": "forge:ores/silver"
+      "tag": "neoforge:ores/silver"
     }
   ],
   "result": "asylumresources:silver_ingot",

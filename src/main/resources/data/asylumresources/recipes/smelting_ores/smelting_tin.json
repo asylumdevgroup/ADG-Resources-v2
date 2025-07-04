@@ -3,7 +3,7 @@
   "category": "misc",
   "ingredient": [
     {
-      "tag": "forge:ores/tin"
+      "tag": "neoforge:ores/tin"
     }
   ],
   "result": "asylumresources:tin_ingot",

@@ -3,7 +3,7 @@
   "category": "misc",
   "ingredient": [
     {
-      "tag": "forge:ores/sapphire"
+      "tag": "neoforge:ores/sapphire"
     }
   ],
   "result": "asylumresources:sapphire",

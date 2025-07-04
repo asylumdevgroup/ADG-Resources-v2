@@ -5,7 +5,6 @@ import com.furtabs.asylumresources.block.ModBlocks;
 import com.furtabs.asylumresources.item.ModCreativeModTabs;
 import com.furtabs.asylumresources.item.ModItems;
 import com.furtabs.asylumresources.loot.ModLootModifiers;
-import com.furtabs.asylumresources.worldgen.ModRegistryEvents;
 import com.furtabs.asylumresources.datagen.DataGenerators;
 import org.slf4j.Logger;
 import net.neoforged.fml.common.Mod;

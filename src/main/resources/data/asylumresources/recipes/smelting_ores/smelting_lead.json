@@ -3,7 +3,7 @@
   "category": "misc",
   "ingredient": [
     {
-      "tag": "forge:ores/lead"
+      "tag": "neoforge:ores/lead"
     }
   ],
   "result": "asylumresources:lead_ingot",

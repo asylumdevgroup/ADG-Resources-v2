@@ -16,9 +16,7 @@
                     "enchantments": [
                       {
                         "enchantment": "minecraft:silk_touch",
-                        "levels": {
-                          "min": 1
-                        }
+                        "levels": { "min": 1 }
                       }
                     ]
                   }
@@ -31,17 +29,17 @@
               "functions": [
                 {
                   "add": false,
-                  "count": {
-                    "type": "minecraft:uniform",
-                    "max": 5.0,
-                    "min": 2.0
-                  },
+                  "count": { "type": "minecraft:uniform", "min": 3.0, "max": 5.0 },
                   "function": "minecraft:set_count"
                 },
                 {
                   "enchantment": "minecraft:fortune",
                   "formula": "minecraft:ore_drops",
                   "function": "minecraft:apply_bonus"
+                },
+                {
+                  "function": "minecraft:limit_count",
+                  "limit": { "min": 5, "max": 7 }
                 },
                 {
                   "function": "minecraft:explosion_decay"

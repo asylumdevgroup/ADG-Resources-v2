@@ -3,7 +3,7 @@
   "category": "misc",
   "ingredient": [
     {
-      "tag": "forge:ores/ruby"
+      "tag": "neoforge:ores/ruby"
     }
   ],
   "result": "asylumresources:ruby",
