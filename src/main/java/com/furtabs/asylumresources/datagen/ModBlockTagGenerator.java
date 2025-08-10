@@ -204,6 +204,11 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.URANIUM_BLOCK.get(),
                         ModBlocks.RAW_URANIUM_BLOCK.get(),
                         ModBlocks.DEEPSLATE_URANIUM_ORE.get(),
+                        // Osmium now requires diamond tools
+                        ModBlocks.OSMIUM_BLOCK.get(),
+                        ModBlocks.OSMIUM_ORE.get(),
+                        ModBlocks.RAW_OSMIUM_BLOCK.get(),
+                        ModBlocks.DEEPSLATE_OSMIUM_ORE.get(),
                         ModBlocks.CONSTANTAN_BLOCK.get(),
                         ModBlocks.IRON_COMPRESSED_BLOCK.get(),
                         ModBlocks.INVAR_BLOCK.get(),
@@ -225,11 +230,6 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.PLATINUM_ORE.get(),
                         ModBlocks.RAW_PLATINUM_BLOCK.get(),
                         ModBlocks.DEEPSLATE_PLATINUM_ORE.get(),
-                        ModBlocks.OSMIUM_BLOCK.get(),
-                        ModBlocks.OSMIUM_ORE.get(),
-                        ModBlocks.RAW_OSMIUM_BLOCK.get(),
-                        ModBlocks.DEEPSLATE_OSMIUM_ORE.get(),
-                        ModBlocks.REFINED_GLOWSTONE_BLOCK.get(),
                         ModBlocks.REFINED_OBSIDIAN_BLOCK.get());
 
         this.tag(ModTags.Blocks.STORAGE_BLOCKS)
