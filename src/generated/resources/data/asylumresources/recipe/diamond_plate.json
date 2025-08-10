@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "tag": "neoforge:hammers"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "asylumresources:diamond_plate"
+  }
+}

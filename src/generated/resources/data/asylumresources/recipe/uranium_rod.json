@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "asylumresources:uranium_ingot"
+    }
+  },
+  "pattern": [
+    "   ",
+    " A ",
+    " A "
+  ],
+  "result": {
+    "count": 1,
+    "id": "asylumresources:uranium_rod"
+  }
+}

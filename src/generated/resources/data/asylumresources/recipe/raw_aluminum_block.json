@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "aluminum",
+  "ingredients": [
+    {
+      "item": "asylumresources:raw_aluminum_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "asylumresources:raw_aluminum"
+  }
+}

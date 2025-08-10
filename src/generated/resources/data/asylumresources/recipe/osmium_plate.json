@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "asylumresources:osmium_ingot"
+    },
+    {
+      "item": "asylumresources:osmium_ingot"
+    },
+    {
+      "tag": "neoforge:hammers"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "asylumresources:osmium_plate"
+  }
+}

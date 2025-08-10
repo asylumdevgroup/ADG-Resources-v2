@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "osmium",
+  "key": {
+    "#": {
+      "item": "asylumresources:raw_osmium"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "asylumresources:raw_osmium_block"
+  }
+}

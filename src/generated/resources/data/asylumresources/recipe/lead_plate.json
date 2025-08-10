@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "asylumresources:lead_ingot"
+    },
+    {
+      "item": "asylumresources:lead_ingot"
+    },
+    {
+      "tag": "neoforge:hammers"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "asylumresources:lead_plate"
+  }
+}

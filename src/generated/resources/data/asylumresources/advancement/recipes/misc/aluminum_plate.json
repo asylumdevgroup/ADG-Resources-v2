@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_aluminum_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "asylumresources:aluminum_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_hammers": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#neoforge:hammers"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "asylumresources:aluminum_plate"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_aluminum_ingot",
+      "has_hammers"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "asylumresources:aluminum_plate"
+    ]
+  }
+}

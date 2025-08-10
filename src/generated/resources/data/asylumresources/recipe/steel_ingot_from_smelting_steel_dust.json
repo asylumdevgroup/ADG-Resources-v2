@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "steel",
+  "ingredient": {
+    "item": "asylumresources:steel_dust"
+  },
+  "result": {
+    "count": 1,
+    "id": "asylumresources:steel_ingot"
+  }
+}

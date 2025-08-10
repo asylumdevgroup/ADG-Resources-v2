@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_enderium_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "asylumresources:enderium_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_hammers": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#neoforge:hammers"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "asylumresources:enderium_plate"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_enderium_ingot",
+      "has_hammers"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "asylumresources:enderium_plate"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "asylumresources:tin_ingot"
+    },
+    {
+      "item": "asylumresources:tin_ingot"
+    },
+    {
+      "tag": "neoforge:hammers"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "asylumresources:tin_plate"
+  }
+}

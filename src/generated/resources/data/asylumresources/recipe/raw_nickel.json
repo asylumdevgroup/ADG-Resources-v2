@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "nickel",
+  "key": {
+    "#": {
+      "item": "asylumresources:raw_nickel"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "asylumresources:raw_nickel_block"
+  }
+}

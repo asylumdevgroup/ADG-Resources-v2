@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "asylumresources:rose_gold_ingot"
+    }
+  },
+  "pattern": [
+    "   ",
+    " A ",
+    " A "
+  ],
+  "result": {
+    "count": 1,
+    "id": "asylumresources:rose_gold_rod"
+  }
+}

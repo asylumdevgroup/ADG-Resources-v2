@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_hammers": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#neoforge:hammers"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_iron_compressed_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "asylumresources:iron_compressed_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "asylumresources:iron_compressed_plate"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_iron_compressed_ingot",
+      "has_hammers"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "asylumresources:iron_compressed_plate"
+    ]
+  }
+}

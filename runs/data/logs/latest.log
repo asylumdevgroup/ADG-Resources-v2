@@ -1,0 +1,106 @@
+[10Aug2025 12:14:59.292] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--mod, asylumresources, --all, --existing, /Users/tabithahanegan/Git/ADG-Resources/src/main/resources, --output, /Users/tabithahanegan/Git/ADG-Resources/src/generated/resources, --launchTarget, forgedatadev, --assetIndex, asset-index, --assetsDir, /Users/tabithahanegan/.gradle/caches/minecraft/assets/1.21.1, --gameDir, ., --fml.fmlVersion, 4.0.39, --fml.mcVersion, 1.21.1, --fml.neoForgeVersion, 21.1.180, --fml.neoFormVersion, 20240808.144430]
+[10Aug2025 12:14:59.294] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.8+9-LTS
+[10Aug2025 12:14:59.295] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.8 by Eclipse Adoptium; OS Mac OS X arch aarch64 version 26.0
+[10Aug2025 12:14:59.422] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatadev
+[10Aug2025 12:14:59.451] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/Users/tabithahanegan/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%23140!/ Service=ModLauncher Env=CLIENT
+[10Aug2025 12:14:59.577] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.180.jar" [locator: neoforge devenv provider ([/Users/tabithahanegan/Git/ADG-Resources/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.1.180/neoforge-21.1.180.jar])]
+[10Aug2025 12:14:59.598] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.180.jar" [locator: neoforge devenv provider ([/Users/tabithahanegan/Git/ADG-Resources/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.1.180/neoforge-21.1.180.jar])]
+[10Aug2025 12:14:59.605] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "main" [locator: userdev mods and services, reader: mod manifest]
+[10Aug2025 12:14:59.613] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.180.jar" [locator: userdev mods and services, reader: mod manifest]
+[10Aug2025 12:14:59.619] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinextras-neoforge-0.4.1.jar" [locator: userdev mods and services, reader: mod manifest]
+[10Aug2025 12:14:59.684] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: library:mixinextras.neoforge. Using Mod File: /Users/tabithahanegan/.gradle/caches/modules-2/files-2.1/io.github.llamalad7/mixinextras-neoforge/0.4.1/eff97772ecd0dcf8e52cdbafd3b3ccec425f8314/mixinextras-neoforge-0.4.1.jar
+[10Aug2025 12:14:59.684] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
+[10Aug2025 12:14:59.684] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "net.neoforged.neoforge-coremods-21.1.180.jar" [parent: neoforge-21.1.180.jar, locator: jarinjar, reader: mod manifest]
+[10Aug2025 12:14:59.685] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		Asylum Resources 1.1.0 (asylumresources)
+		Minecraft 1.21.1 (minecraft)
+		NeoForge 21.1.180 (neoforge)
+[10Aug2025 12:15:00.012] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatadev' with arguments [--gameDir, ., --assetsDir, /Users/tabithahanegan/.gradle/caches/minecraft/assets/1.21.1, --mod, asylumresources, --all, --existing, /Users/tabithahanegan/Git/ADG-Resources/src/main/resources, --output, /Users/tabithahanegan/Git/ADG-Resources/src/generated/resources, --assetIndex, asset-index]
+[10Aug2025 12:15:00.301] [main/INFO] [net.neoforged.neoforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [asylumresources]
+[10Aug2025 12:15:00.312] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[10Aug2025 12:15:04.243] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.180, for MC 1.21.1
+[10Aug2025 12:15:04.264] [modloading-worker-0/INFO] [com.furtabs.asylumresources.AsylumRes/]: Asylum Resources mod initialized!
+[10Aug2025 12:15:04.497] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/Users/tabithahanegan/Git/ADG-Resources/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.1.180/neoforge-21.1.180.jar%23194!/assets/.mcassetsroot' uses unexpected schema
+[10Aug2025 12:15:04.497] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/Users/tabithahanegan/Git/ADG-Resources/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.1.180/neoforge-21.1.180.jar%23194!/data/.mcassetsroot' uses unexpected schema
+[10Aug2025 12:15:04.507] [main/WARN] [net.minecraft.server.packs.PathPackResources/]: Non [a-z0-9_.-] character in namespace .DS_Store in pack /Users/tabithahanegan/Git/ADG-Resources/src/main/resources, ignoring
+[10Aug2025 12:15:04.516] [main/WARN] [net.minecraft.server.packs.PathPackResources/]: Non [a-z0-9_.-] character in namespace .DS_Store in pack /Users/tabithahanegan/Git/ADG-Resources/src/main/resources, ignoring
+[10Aug2025 12:15:04.519] [main/WARN] [net.minecraft.server.packs.PathPackResources/]: Non [a-z0-9_.-] character in namespace .DS_Store in pack /Users/tabithahanegan/Git/ADG-Resources/src/main/resources, ignoring
+[10Aug2025 12:15:04.520] [main/WARN] [net.minecraft.server.packs.PathPackResources/]: Non [a-z0-9_.-] character in namespace .DS_Store in pack /Users/tabithahanegan/Git/ADG-Resources/src/main/resources, ignoring
+[10Aug2025 12:15:04.588] [main/WARN] [net.minecraft.server.packs.PathPackResources/]: Non [a-z0-9_.-] character in namespace .DS_Store in pack /Users/tabithahanegan/Git/ADG-Resources/src/main/resources, ignoring
+[10Aug2025 12:15:04.589] [main/WARN] [net.minecraft.server.packs.PathPackResources/]: Non [a-z0-9_.-] character in namespace .DS_Store in pack /Users/tabithahanegan/Git/ADG-Resources/src/main/resources, ignoring
+[10Aug2025 12:15:04.589] [main/WARN] [net.minecraft.server.packs.PathPackResources/]: Non [a-z0-9_.-] character in namespace .DS_Store in pack /Users/tabithahanegan/Git/ADG-Resources/src/main/resources, ignoring
+[10Aug2025 12:15:04.590] [main/WARN] [net.minecraft.server.packs.PathPackResources/]: Non [a-z0-9_.-] character in namespace .DS_Store in pack /Users/tabithahanegan/Git/ADG-Resources/src/main/resources, ignoring
+[10Aug2025 12:15:04.702] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[10Aug2025 12:15:04.816] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 113 ms
+[10Aug2025 12:15:04.817] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: asylumresources
+[10Aug2025 12:15:04.855] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: asylumresources finished after 38 ms
+[10Aug2025 12:15:04.856] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: asylumresources
+[10Aug2025 12:15:04.890] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: asylumresources finished after 33 ms
+[10Aug2025 12:15:04.890] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id asylumresources
+[10Aug2025 12:15:04.900] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id asylumresources finished after 9 ms
+[10Aug2025 12:15:04.900] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id asylumresources
+[10Aug2025 12:15:04.905] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id asylumresources finished after 4 ms
+[10Aug2025 12:15:04.905] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Global Loot Modifiers : asylumresources
+[10Aug2025 12:15:04.912] [main/INFO] [net.minecraft.data.DataGenerator/]: Global Loot Modifiers : asylumresources finished after 6 ms
+[10Aug2025 12:15:04.912] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[10Aug2025 12:15:05.069] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 156 ms
+[10Aug2025 12:15:05.069] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Registries
+[10Aug2025 12:15:05.077] [main/INFO] [net.minecraft.data.DataGenerator/]: Registries finished after 7 ms
+[10Aug2025 12:15:05.077] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 375 ms
+[10Aug2025 12:15:05.093] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 1191, old count: 1189, new count: 1192, removed stale: 0, written: 2
+[10Aug2025 12:15:05.820] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--mod, asylumresources, --all, --existing, /Users/tabithahanegan/Git/ADG-Resources/src/main/resources, --output, /Users/tabithahanegan/Git/ADG-Resources/src/generated/resources, --launchTarget, forgedatadev, --assetIndex, asset-index, --assetsDir, /Users/tabithahanegan/.gradle/caches/minecraft/assets/1.21.1, --gameDir, ., --fml.fmlVersion, 4.0.39, --fml.mcVersion, 1.21.1, --fml.neoForgeVersion, 21.1.180, --fml.neoFormVersion, 20240808.144430]
+[10Aug2025 12:15:05.822] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.8+9-LTS
+[10Aug2025 12:15:05.822] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.8 by Eclipse Adoptium; OS Mac OS X arch aarch64 version 26.0
+[10Aug2025 12:15:05.920] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatadev
+[10Aug2025 12:15:05.970] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/Users/tabithahanegan/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%23140!/ Service=ModLauncher Env=CLIENT
+[10Aug2025 12:15:06.224] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.180.jar" [locator: neoforge devenv provider ([/Users/tabithahanegan/Git/ADG-Resources/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.1.180/neoforge-21.1.180.jar])]
+[10Aug2025 12:15:06.243] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.180.jar" [locator: neoforge devenv provider ([/Users/tabithahanegan/Git/ADG-Resources/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.1.180/neoforge-21.1.180.jar])]
+[10Aug2025 12:15:06.251] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "main" [locator: userdev mods and services, reader: mod manifest]
+[10Aug2025 12:15:06.259] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.180.jar" [locator: userdev mods and services, reader: mod manifest]
+[10Aug2025 12:15:06.266] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinextras-neoforge-0.4.1.jar" [locator: userdev mods and services, reader: mod manifest]
+[10Aug2025 12:15:06.340] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: library:mixinextras.neoforge. Using Mod File: /Users/tabithahanegan/.gradle/caches/modules-2/files-2.1/io.github.llamalad7/mixinextras-neoforge/0.4.1/eff97772ecd0dcf8e52cdbafd3b3ccec425f8314/mixinextras-neoforge-0.4.1.jar
+[10Aug2025 12:15:06.340] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
+[10Aug2025 12:15:06.341] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "net.neoforged.neoforge-coremods-21.1.180.jar" [parent: neoforge-21.1.180.jar, locator: jarinjar, reader: mod manifest]
+[10Aug2025 12:15:06.342] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		Asylum Resources 1.1.0 (asylumresources)
+		Minecraft 1.21.1 (minecraft)
+		NeoForge 21.1.180 (neoforge)
+[10Aug2025 12:15:06.659] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatadev' with arguments [--gameDir, ., --assetsDir, /Users/tabithahanegan/.gradle/caches/minecraft/assets/1.21.1, --mod, asylumresources, --all, --existing, /Users/tabithahanegan/Git/ADG-Resources/src/main/resources, --output, /Users/tabithahanegan/Git/ADG-Resources/src/generated/resources, --assetIndex, asset-index]
+[10Aug2025 12:15:06.942] [main/INFO] [net.neoforged.neoforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [asylumresources]
+[10Aug2025 12:15:06.956] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[10Aug2025 12:15:09.636] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.180, for MC 1.21.1
+[10Aug2025 12:15:09.656] [modloading-worker-0/INFO] [com.furtabs.asylumresources.AsylumRes/]: Asylum Resources mod initialized!
+[10Aug2025 12:15:09.862] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/Users/tabithahanegan/Git/ADG-Resources/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.1.180/neoforge-21.1.180.jar%23194!/assets/.mcassetsroot' uses unexpected schema
+[10Aug2025 12:15:09.863] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/Users/tabithahanegan/Git/ADG-Resources/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.1.180/neoforge-21.1.180.jar%23194!/data/.mcassetsroot' uses unexpected schema
+[10Aug2025 12:15:09.868] [main/WARN] [net.minecraft.server.packs.PathPackResources/]: Non [a-z0-9_.-] character in namespace .DS_Store in pack /Users/tabithahanegan/Git/ADG-Resources/src/main/resources, ignoring
+[10Aug2025 12:15:09.874] [main/WARN] [net.minecraft.server.packs.PathPackResources/]: Non [a-z0-9_.-] character in namespace .DS_Store in pack /Users/tabithahanegan/Git/ADG-Resources/src/main/resources, ignoring
+[10Aug2025 12:15:09.877] [main/WARN] [net.minecraft.server.packs.PathPackResources/]: Non [a-z0-9_.-] character in namespace .DS_Store in pack /Users/tabithahanegan/Git/ADG-Resources/src/main/resources, ignoring
+[10Aug2025 12:15:09.878] [main/WARN] [net.minecraft.server.packs.PathPackResources/]: Non [a-z0-9_.-] character in namespace .DS_Store in pack /Users/tabithahanegan/Git/ADG-Resources/src/main/resources, ignoring
+[10Aug2025 12:15:09.912] [main/WARN] [net.minecraft.server.packs.PathPackResources/]: Non [a-z0-9_.-] character in namespace .DS_Store in pack /Users/tabithahanegan/Git/ADG-Resources/src/main/resources, ignoring
+[10Aug2025 12:15:09.912] [main/WARN] [net.minecraft.server.packs.PathPackResources/]: Non [a-z0-9_.-] character in namespace .DS_Store in pack /Users/tabithahanegan/Git/ADG-Resources/src/main/resources, ignoring
+[10Aug2025 12:15:09.913] [main/WARN] [net.minecraft.server.packs.PathPackResources/]: Non [a-z0-9_.-] character in namespace .DS_Store in pack /Users/tabithahanegan/Git/ADG-Resources/src/main/resources, ignoring
+[10Aug2025 12:15:09.913] [main/WARN] [net.minecraft.server.packs.PathPackResources/]: Non [a-z0-9_.-] character in namespace .DS_Store in pack /Users/tabithahanegan/Git/ADG-Resources/src/main/resources, ignoring
+[10Aug2025 12:15:10.017] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[10Aug2025 12:15:10.107] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 89 ms
+[10Aug2025 12:15:10.107] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: asylumresources
+[10Aug2025 12:15:10.133] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: asylumresources finished after 24 ms
+[10Aug2025 12:15:10.133] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: asylumresources
+[10Aug2025 12:15:10.166] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: asylumresources finished after 32 ms
+[10Aug2025 12:15:10.166] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id asylumresources
+[10Aug2025 12:15:10.172] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id asylumresources finished after 5 ms
+[10Aug2025 12:15:10.173] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id asylumresources
+[10Aug2025 12:15:10.176] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id asylumresources finished after 3 ms
+[10Aug2025 12:15:10.176] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Global Loot Modifiers : asylumresources
+[10Aug2025 12:15:10.182] [main/INFO] [net.minecraft.data.DataGenerator/]: Global Loot Modifiers : asylumresources finished after 5 ms
+[10Aug2025 12:15:10.183] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[10Aug2025 12:15:10.255] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 71 ms
+[10Aug2025 12:15:10.255] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Registries
+[10Aug2025 12:15:10.258] [main/INFO] [net.minecraft.data.DataGenerator/]: Registries finished after 3 ms
+[10Aug2025 12:15:10.259] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 241 ms
+[10Aug2025 12:15:10.267] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 1191, old count: 1191, new count: 1192, removed stale: 0, written: 0

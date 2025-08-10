@@ -1,9 +1,11 @@
-// 1.20.1	2024-10-29T17:34:10.254678	Tags for minecraft:block mod id asylumresources
-1b52347b35f03d3ce5fd10f4568bdc15daac3016 data/forge/tags/blocks/needs_netherite_tool.json
-736c90148d216287bb3268f472391e1991c269ca data/forge/tags/blocks/ores.json
-0743a5fe5ce28aadfabe374f91ec9c1607f5dccc data/forge/tags/blocks/storage_blocks.json
-667b9a79d4e244a8352b1fa5bc7b9d4e33ace86c data/minecraft/tags/blocks/mineable/hammer.json
-667b9a79d4e244a8352b1fa5bc7b9d4e33ace86c data/minecraft/tags/blocks/mineable/pickaxe.json
-d9b788c421cc400c13f188bba3eb8bd32c1ac19e data/minecraft/tags/blocks/needs_diamond_tool.json
-a1d29bb8420845d6ee996208a8fd9ec4f25dc270 data/minecraft/tags/blocks/needs_iron_tool.json
-47388ab393b83f83da8218c309b365b58f82d9b8 data/minecraft/tags/blocks/needs_stone_tool.json
+// 1.21.1	2025-08-10T11:57:46.834286	Tags for minecraft:block mod id asylumresources
+667b9a79d4e244a8352b1fa5bc7b9d4e33ace86c data/asylumresources/tags/block/mineable/hammer.json
+ff68eefb2ecece98d0d587d0af86db93cc43e862 data/c/tags/block/ores.json
+8313777df7cf09c890ae62f91a5f8246d5b1a13a data/c/tags/block/storage_blocks.json
+667b9a79d4e244a8352b1fa5bc7b9d4e33ace86c data/minecraft/tags/block/mineable/pickaxe.json
+d9b788c421cc400c13f188bba3eb8bd32c1ac19e data/minecraft/tags/block/needs_diamond_tool.json
+a1d29bb8420845d6ee996208a8fd9ec4f25dc270 data/minecraft/tags/block/needs_iron_tool.json
+47388ab393b83f83da8218c309b365b58f82d9b8 data/minecraft/tags/block/needs_stone_tool.json
+1b52347b35f03d3ce5fd10f4568bdc15daac3016 data/neoforge/tags/block/needs_netherite_tool.json
+736c90148d216287bb3268f472391e1991c269ca data/neoforge/tags/block/ores.json
+0743a5fe5ce28aadfabe374f91ec9c1607f5dccc data/neoforge/tags/block/storage_blocks.json

@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_andesite_alloy_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "asylumresources:andesite_alloy_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_hammers": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#neoforge:hammers"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "asylumresources:andesite_alloy_plate"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_andesite_alloy_ingot",
+      "has_hammers"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "asylumresources:andesite_alloy_plate"
+    ]
+  }
+}

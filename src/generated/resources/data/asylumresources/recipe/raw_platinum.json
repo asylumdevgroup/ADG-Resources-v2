@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "platinum",
+  "key": {
+    "#": {
+      "item": "asylumresources:raw_platinum"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "asylumresources:raw_platinum_block"
+  }
+}

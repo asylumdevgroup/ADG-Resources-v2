@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "invar",
+  "ingredient": {
+    "item": "asylumresources:invar_dust"
+  },
+  "result": {
+    "count": 1,
+    "id": "asylumresources:invar_ingot"
+  }
+}

@@ -726,15 +726,6 @@ public class ModRecipeProvider extends RecipeProvider {
                 .pattern("AAA")
                 .pattern("AAA")
                 .define('A', ModItems.BRONZE_NUGGET.get())
-                .unlockedBy("has_brass_nugget", inventoryTrigger(ItemPredicate.Builder.item()
-                        .of(ModItems.BRONZE_NUGGET.get()).build()))
-                .save(output);
-
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.BRONZE_INGOT.get())
-                .pattern("AAA")
-                .pattern("AAA")
-                .pattern("AAA")
-                .define('A', ModItems.BRONZE_NUGGET.get())
                 .unlockedBy("has_bronze_nugget", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(ModItems.BRONZE_NUGGET.get()).build()))
                 .save(output);

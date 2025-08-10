@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_constantan_nugget": {
+      "conditions": {
+        "items": [
+          {
+            "items": "asylumresources:constantan_nugget"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "asylumresources:constantan_ingot"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_constantan_nugget"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "asylumresources:constantan_ingot"
+    ]
+  }
+}

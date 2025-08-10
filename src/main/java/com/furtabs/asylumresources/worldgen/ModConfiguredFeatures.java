@@ -10,7 +10,6 @@ import net.minecraft.world.level.levelgen.feature.Feature;
 import net.minecraft.world.level.levelgen.feature.configurations.OreConfiguration;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.world.level.levelgen.structure.templatesystem.TagMatchTest;
-import net.neoforged.neoforge.registries.RegisterEvent.RegisterHelper;
 import net.minecraft.data.worldgen.BootstrapContext;
 
 import java.util.List;
@@ -39,6 +38,10 @@ public class ModConfiguredFeatures {
                     OreConfiguration.target(
                         new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES),
                         ModBlocks.ALUMINUM_ORE.get().defaultBlockState()
+                    ),
+                    OreConfiguration.target(
+                        new TagMatchTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES),
+                        ModBlocks.DEEPSLATE_ALUMINUM_ORE.get().defaultBlockState()
                     )
                 ),
                 9
@@ -51,6 +54,10 @@ public class ModConfiguredFeatures {
                     OreConfiguration.target(
                         new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES),
                         ModBlocks.APATITE_ORE.get().defaultBlockState()
+                    ),
+                    OreConfiguration.target(
+                        new TagMatchTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES),
+                        ModBlocks.DEEPSLATE_APATITE_ORE.get().defaultBlockState()
                     )
                 ),
                 8
@@ -63,6 +70,10 @@ public class ModConfiguredFeatures {
                     OreConfiguration.target(
                         new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES),
                         ModBlocks.CINNABAR_ORE.get().defaultBlockState()
+                    ),
+                    OreConfiguration.target(
+                        new TagMatchTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES),
+                        ModBlocks.DEEPSLATE_CINNABAR_ORE.get().defaultBlockState()
                     )
                 ),
                 7
@@ -75,6 +86,10 @@ public class ModConfiguredFeatures {
                     OreConfiguration.target(
                         new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES),
                         ModBlocks.LEAD_ORE.get().defaultBlockState()
+                    ),
+                    OreConfiguration.target(
+                        new TagMatchTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES),
+                        ModBlocks.DEEPSLATE_LEAD_ORE.get().defaultBlockState()
                     )
                 ),
                 8
@@ -87,6 +102,10 @@ public class ModConfiguredFeatures {
                     OreConfiguration.target(
                         new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES),
                         ModBlocks.NICKEL_ORE.get().defaultBlockState()
+                    ),
+                    OreConfiguration.target(
+                        new TagMatchTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES),
+                        ModBlocks.DEEPSLATE_NICKEL_ORE.get().defaultBlockState()
                     )
                 ),
                 8
@@ -99,6 +118,10 @@ public class ModConfiguredFeatures {
                     OreConfiguration.target(
                         new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES),
                         ModBlocks.OSMIUM_ORE.get().defaultBlockState()
+                    ),
+                    OreConfiguration.target(
+                        new TagMatchTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES),
+                        ModBlocks.DEEPSLATE_OSMIUM_ORE.get().defaultBlockState()
                     )
                 ),
                 7
@@ -111,6 +134,10 @@ public class ModConfiguredFeatures {
                     OreConfiguration.target(
                         new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES),
                         ModBlocks.PLATINUM_ORE.get().defaultBlockState()
+                    ),
+                    OreConfiguration.target(
+                        new TagMatchTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES),
+                        ModBlocks.DEEPSLATE_PLATINUM_ORE.get().defaultBlockState()
                     )
                 ),
                 6
@@ -123,6 +150,10 @@ public class ModConfiguredFeatures {
                     OreConfiguration.target(
                         new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES),
                         ModBlocks.RUBY_ORE.get().defaultBlockState()
+                    ),
+                    OreConfiguration.target(
+                        new TagMatchTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES),
+                        ModBlocks.DEEPSLATE_RUBY_ORE.get().defaultBlockState()
                     )
                 ),
                 5
@@ -135,6 +166,10 @@ public class ModConfiguredFeatures {
                     OreConfiguration.target(
                         new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES),
                         ModBlocks.SAPPHIRE_ORE.get().defaultBlockState()
+                    ),
+                    OreConfiguration.target(
+                        new TagMatchTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES),
+                        ModBlocks.DEEPSLATE_SAPPHIRE_ORE.get().defaultBlockState()
                     )
                 ),
                 5
@@ -147,6 +182,10 @@ public class ModConfiguredFeatures {
                     OreConfiguration.target(
                         new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES),
                         ModBlocks.SILVER_ORE.get().defaultBlockState()
+                    ),
+                    OreConfiguration.target(
+                        new TagMatchTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES),
+                        ModBlocks.DEEPSLATE_SILVER_ORE.get().defaultBlockState()
                     )
                 ),
                 8
@@ -159,6 +198,10 @@ public class ModConfiguredFeatures {
                     OreConfiguration.target(
                         new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES),
                         ModBlocks.TIN_ORE.get().defaultBlockState()
+                    ),
+                    OreConfiguration.target(
+                        new TagMatchTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES),
+                        ModBlocks.DEEPSLATE_TIN_ORE.get().defaultBlockState()
                     )
                 ),
                 7
@@ -171,6 +214,10 @@ public class ModConfiguredFeatures {
                     OreConfiguration.target(
                         new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES),
                         ModBlocks.URANIUM_ORE.get().defaultBlockState()
+                    ),
+                    OreConfiguration.target(
+                        new TagMatchTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES),
+                        ModBlocks.DEEPSLATE_URANIUM_ORE.get().defaultBlockState()
                     )
                 ),
                 4
@@ -183,6 +230,10 @@ public class ModConfiguredFeatures {
                     OreConfiguration.target(
                         new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES),
                         ModBlocks.ZINC_ORE.get().defaultBlockState()
+                    ),
+                    OreConfiguration.target(
+                        new TagMatchTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES),
+                        ModBlocks.DEEPSLATE_ZINC_ORE.get().defaultBlockState()
                     )
                 ),
                 8

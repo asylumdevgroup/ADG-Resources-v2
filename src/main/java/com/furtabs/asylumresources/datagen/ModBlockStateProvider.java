@@ -1,26 +1,24 @@
 package com.furtabs.asylumresources.datagen;
 
-import net.minecraft.data.DataProvider;
+import com.furtabs.asylumresources.AsylumRes;
+import com.furtabs.asylumresources.block.ModBlocks;
 import net.minecraft.data.PackOutput;
-import java.util.concurrent.CompletableFuture;
-import java.io.IOException;
-import net.minecraft.data.CachedOutput;
+import net.minecraft.world.level.block.Block;
+import net.neoforged.neoforge.client.model.generators.BlockStateProvider;
+import net.neoforged.neoforge.client.model.generators.ModelFile;
+import net.neoforged.neoforge.common.data.ExistingFileHelper;
 
-public class ModBlockStateProvider implements DataProvider {
-    private final PackOutput output;
-
-    public ModBlockStateProvider(PackOutput output) {
-        this.output = output;
+public class ModBlockStateProvider extends BlockStateProvider {
+    public ModBlockStateProvider(PackOutput output, ExistingFileHelper existingFileHelper) {
+        super(output, AsylumRes.MOD_ID, existingFileHelper);
     }
 
     @Override
-    public java.util.concurrent.CompletableFuture<?> run(net.minecraft.data.CachedOutput cache) {
-        // TODO: Implement blockstate generation
-        return java.util.concurrent.CompletableFuture.completedFuture(null);
-    }
-
-    @Override
-    public String getName() {
-        return "Mod BlockStates";
+    protected void registerStatesAndModels() {
+        // Generate simple cube-all block models + blockstates and corresponding block item models
+        ModBlocks.BLOCKS.getEntries().forEach(entry -> {
+            Block block = entry.get();
+            simpleBlockWithItem(block, cubeAll(block));
+        });
     }
 }

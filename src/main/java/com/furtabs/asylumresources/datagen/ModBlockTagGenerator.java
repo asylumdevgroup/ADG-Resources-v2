@@ -300,5 +300,11 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.DEEPSLATE_URANIUM_ORE.get(),
                         ModBlocks.ZINC_ORE.get(),
                         ModBlocks.DEEPSLATE_ZINC_ORE.get());
+
+        // Mirror NeoForge block tags into common `c:` tags for cross-loader compatibility
+        this.tag(com.furtabs.asylumresources.util.ModTags.CBlocks.STORAGE_BLOCKS)
+                .addTag(ModTags.Blocks.STORAGE_BLOCKS);
+        this.tag(com.furtabs.asylumresources.util.ModTags.CBlocks.ORES)
+                .addTag(ModTags.Blocks.ORES);
     }
 }

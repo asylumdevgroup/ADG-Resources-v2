@@ -305,5 +305,36 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                         ModItems.RAW_TIN.get(),
                         ModItems.RAW_URANIUM.get(),
                         ModItems.RAW_ZINC.get());
+
+        // Ensure neoforge:hammers exists (empty is fine) so cross-namespace mirror doesn't fail
+        this.tag(ModTags.Items.HAMMERS);
+
+        // Mirror NeoForge tags into common `c:` tags for cross-loader compatibility
+        this.tag(com.furtabs.asylumresources.util.ModTags.CItems.HAMMERS)
+                .addTag(ModTags.Items.HAMMERS);
+        this.tag(com.furtabs.asylumresources.util.ModTags.CItems.COINS)
+                .addTag(ModTags.Items.COINS);
+        this.tag(com.furtabs.asylumresources.util.ModTags.CItems.DUSTS)
+                .addTag(ModTags.Items.DUSTS);
+        this.tag(com.furtabs.asylumresources.util.ModTags.CItems.ENRICHED_DUSTS)
+                .addTag(ModTags.Items.ENRICHED_DUSTS);
+        this.tag(com.furtabs.asylumresources.util.ModTags.CItems.ENRICHED_MATERIALS)
+                .addTag(ModTags.Items.ENRICHED_MATERIALS);
+        this.tag(com.furtabs.asylumresources.util.ModTags.CItems.POLISHED_GEMS)
+                .addTag(ModTags.Items.POLISHED_GEMS);
+        this.tag(com.furtabs.asylumresources.util.ModTags.CItems.RODS)
+                .addTag(ModTags.Items.RODS);
+        this.tag(com.furtabs.asylumresources.util.ModTags.CItems.PLATES)
+                .addTag(ModTags.Items.PLATES);
+        this.tag(com.furtabs.asylumresources.util.ModTags.CItems.GEARS)
+                .addTag(ModTags.Items.GEARS);
+        this.tag(com.furtabs.asylumresources.util.ModTags.CItems.GEMS)
+                .addTag(ModTags.Items.GEMS);
+        this.tag(com.furtabs.asylumresources.util.ModTags.CItems.NUGGETS)
+                .addTag(ModTags.Items.NUGGETS);
+        this.tag(com.furtabs.asylumresources.util.ModTags.CItems.INGOTS)
+                .addTag(ModTags.Items.INGOTS);
+        this.tag(com.furtabs.asylumresources.util.ModTags.CItems.RAW_MATERIALS)
+                .addTag(ModTags.Items.RAW_MATERIALS);
     }
 }

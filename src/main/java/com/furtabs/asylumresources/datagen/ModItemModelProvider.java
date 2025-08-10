@@ -307,28 +307,28 @@ public class ModItemModelProvider extends ItemModelProvider {
     public ItemModelBuilder simpleItem(Item item) {
         ResourceLocation itemKey = BuiltInRegistries.ITEM.getKey(item);
         return withExistingParent(itemKey.getPath(),
-                ResourceLocation.fromNamespaceAndPath("item", "generated")).texture("layer0",
-                ResourceLocation.fromNamespaceAndPath(com.furtabs.asylumresources.AsylumRes.MOD_ID, "item/" + itemKey.getPath()));
+                mcLoc("item/generated")).texture("layer0",
+                modLoc("item/" + itemKey.getPath()));
     }
 
     public ItemModelBuilder handheldItem(Item item) {
         ResourceLocation itemKey = BuiltInRegistries.ITEM.getKey(item);
         return withExistingParent(itemKey.getPath(),
-                ResourceLocation.fromNamespaceAndPath("item", "handheld")).texture("layer0",
-                ResourceLocation.fromNamespaceAndPath(com.furtabs.asylumresources.AsylumRes.MOD_ID, "item/" + itemKey.getPath()));
+                mcLoc("item/handheld")).texture("layer0",
+                modLoc("item/" + itemKey.getPath()));
     }
 
     @Override
     public ItemModelBuilder simpleBlockItem(ResourceLocation item) {
         return withExistingParent(item.getPath(),
-                ResourceLocation.fromNamespaceAndPath("item", "generated")).texture("layer0",
-                ResourceLocation.fromNamespaceAndPath(com.furtabs.asylumresources.AsylumRes.MOD_ID, "item/" + item.getPath()));
+                mcLoc("item/generated")).texture("layer0",
+                modLoc("item/" + item.getPath()));
     }
 
     public ItemModelBuilder simpleBlockItemBlockTexture(ResourceLocation item) {
         return withExistingParent(item.getPath(),
-                ResourceLocation.fromNamespaceAndPath("item", "generated")).texture("layer0",
-                ResourceLocation.fromNamespaceAndPath(com.furtabs.asylumresources.AsylumRes.MOD_ID, "block/" + item.getPath()));
+                mcLoc("item/generated")).texture("layer0",
+                modLoc("block/" + item.getPath()));
     }
 
     public void evenSimplerBlockItem(Block block) {

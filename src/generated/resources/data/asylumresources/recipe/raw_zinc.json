@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "zinc",
+  "key": {
+    "#": {
+      "item": "asylumresources:raw_zinc"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "asylumresources:raw_zinc_block"
+  }
+}

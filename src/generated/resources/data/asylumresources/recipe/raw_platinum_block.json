@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "platinum",
+  "ingredients": [
+    {
+      "item": "asylumresources:raw_platinum_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "asylumresources:raw_platinum"
+  }
+}
