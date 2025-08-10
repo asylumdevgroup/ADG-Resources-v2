@@ -8,6 +8,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.enchantment.Enchantments;
 import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.storage.loot.LootTable;
 import net.minecraft.world.level.storage.loot.entries.LootItem;
 import net.minecraft.world.level.storage.loot.functions.ApplyBonusCount;
@@ -155,6 +156,14 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.add(ModBlocks.ZINC_ORE.get(),
                 block -> createCopperLikeOreDrops(ModBlocks.ZINC_ORE.get(), ModItems.RAW_ZINC.get()));
 
+        // Vanilla ores: make them drop like copper/metals in this mod
+        this.add(Blocks.IRON_ORE, block -> createCopperLikeOreDrops(Blocks.IRON_ORE, Items.RAW_IRON));
+        this.add(Blocks.DEEPSLATE_IRON_ORE, block -> createCopperLikeOreDrops(Blocks.DEEPSLATE_IRON_ORE, Items.RAW_IRON));
+        this.add(Blocks.GOLD_ORE, block -> createCopperLikeOreDrops(Blocks.GOLD_ORE, Items.RAW_GOLD));
+        this.add(Blocks.DEEPSLATE_GOLD_ORE, block -> createCopperLikeOreDrops(Blocks.DEEPSLATE_GOLD_ORE, Items.RAW_GOLD));
+        this.add(Blocks.COAL_ORE, block -> createCopperLikeOreDrops(Blocks.COAL_ORE, Items.COAL));
+        this.add(Blocks.DEEPSLATE_COAL_ORE, block -> createCopperLikeOreDrops(Blocks.DEEPSLATE_COAL_ORE, Items.COAL));
+
     }
 
     protected LootTable.Builder createCopperLikeOreDrops(Block pBlock, Item item) {
@@ -251,7 +260,15 @@ public class ModBlockLootTables extends BlockLootSubProvider {
             ModBlocks.SILVER_ORE.get(),
             ModBlocks.TIN_ORE.get(),
             ModBlocks.URANIUM_ORE.get(),
-            ModBlocks.ZINC_ORE.get()
+            ModBlocks.ZINC_ORE.get(),
+            
+            // Vanilla ores we override to copper-like multi-drops
+            Blocks.IRON_ORE,
+            Blocks.DEEPSLATE_IRON_ORE,
+            Blocks.GOLD_ORE,
+            Blocks.DEEPSLATE_GOLD_ORE,
+            Blocks.COAL_ORE,
+            Blocks.DEEPSLATE_COAL_ORE
         );
     }
 }
